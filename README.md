@@ -57,7 +57,7 @@ Doesn't exist yet!
 
 - **TheKillerey** - Core map features, including jungles, minions, structures, old particles, and background sound effects.
 - **Tom** - Tester & helper.
-- **solen** - Contributions to jungles, Baron, Dragons, minions, and structures.
+- **aryasdemise** - Contributions to jungles, Baron, Dragons, minions, and structures.
 - **tassio** - Contributions to old particles for the old structures and old files. Nexus, Inhibitors.
 - **Leischii** - Helping me out fixing some old particles.
 - **BlooJae** - Uploading my Mod to RuneForge.
