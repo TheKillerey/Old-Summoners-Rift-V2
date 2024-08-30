@@ -32,7 +32,7 @@ Welcome to the **Old Summoners Rift V2** custom skin mod! This mod brings back t
 
 ## Trailer
 
-Doesn't exist yet!
+https://www.youtube.com/watch?v=Yxs1-8Q_prQ
 
 ## Installation Instructions
 
