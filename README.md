@@ -16,6 +16,8 @@ Welcome to the **Old Summoners Rift V2** custom skin mod! This mod brings back t
 - **Old Minimap Style**: Changes the Minimap style to an old version.
 - **Night Verion (Alpha)**: Changes the map into the night version
 - **Long Time-Support**: I added a feature that allows me to avoid Riot's name changes and after update crashes.
+- **Old Loadingscreen**: Version 1.0.1 supports the Old Loadingscreen for all map version.
+- **Rift of the Unbound Verion**: Changes the map to the Rift of the Unbound color style.
 
 ## Screenshots
 ### Day Version
@@ -31,9 +33,19 @@ Welcome to the **Old Summoners Rift V2** custom skin mod! This mod brings back t
 ![League of Legends Screenshot 2024 08 30 - 19 43 13 17](https://github.com/user-attachments/assets/5785f5f3-d5b4-4014-bd9e-8b778ba239cd)
 ![League of Legends Screenshot 2024 08 30 - 19 42 53 49](https://github.com/user-attachments/assets/67c8061d-058e-4619-af61-e3f69691076a)
 
+### Rift of the Unbound Version
+
+![League of Legends Screenshot 2024 09 06 - 21 57 00 00](https://github.com/user-attachments/assets/ac31d9d5-4f47-4591-9947-188e212f77e1)
+![League of Legends Screenshot 2024 09 06 - 21 55 45 89](https://github.com/user-attachments/assets/e50a9f0a-2136-4709-974a-80b67b5bb3f0)
+![League of Legends Screenshot 2024 09 06 - 21 55 31 95](https://github.com/user-attachments/assets/f38099e0-4897-4b56-9666-f16e405496c5)
+![League of Legends Screenshot 2024 09 06 - 21 55 00 43](https://github.com/user-attachments/assets/ce436ae2-b51c-476d-ba7f-6a6e6f1679f7)
+
+
 ## Trailer
 
 https://www.youtube.com/watch?v=Yxs1-8Q_prQ
+
+https://www.youtube.com/watch?v=Xkwqm-TUXmI
 
 ## Installation Instructions
 
