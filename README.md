@@ -52,15 +52,15 @@ Welcome to the **Old Summoners Rift V2** custom skin mod! This mod brings back t
 
 ## Trailer
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Yxs1-8Q_prQ)  
-[Watch on YouTube](https://www.youtube.com/watch?v=Xkwqm-TUXmI)
+[Old Summoners Rift V2 - Custom Skin Mod | League of Legends](https://www.youtube.com/watch?v=Yxs1-8Q_prQ)  
+[TheKillerey & QueenRey - Speared & Forgotten | Old Rift of the Unbound](https://www.youtube.com/watch?v=Xkwqm-TUXmI)
 
 ## Installation Instructions
 
 1. Download the mod files from the [Releases](https://github.com/TheKillerey/Old-Summoners-Rift-V2/releases) section.
 2. Drag & Drop the `.fantome` files to your League of Legends Custom Skin Manager.
-3. Run Old Minions & Old Summoners Rift Mod or the night version for both.
-4. Launch the game and enjoy the classic Summoner's Rift!
+3. Run Old Minions or the night version & Old Summoners Rift Mod or which version you choosed.
+4. Launch the game and enjoy the classic Summoner's Rift in 3 different styles!
 
 ## Compatibility
 
@@ -72,8 +72,7 @@ Welcome to the **Old Summoners Rift V2** custom skin mod! This mod brings back t
 - Some minor visual glitches may occur in specific areas.
 - Compatibility with future updates of the game cannot be guaranteed (Riot `.mapgeo` updates).
 - Some spells are not fully visible (Sadly, there is no fix for that yet).
-- Long names are currently not uploaded into GitHub.
-- Practice tool will have issues when using the dragon/baron versions of the map. This will also happen on the original map.
+- Practice tool will have issues `(Invisible Terrain)` when using the dragon/baron versions of the map. This will also happen on the original map.
 
 ## Credits
 
