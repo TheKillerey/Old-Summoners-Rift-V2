@@ -52,13 +52,13 @@ entries: map[hash,embed] = {
             }
         }
         iconCircle: option[string] = {
-            "ASSETS/Characters/SRU_Baron/HUD/Baron_Circle.dds"
+            "ASSETS/Characters/SRU_Baron/HUD/Baron_Circle.tex"
         }
         iconCircleScale: option[f32] = {
             1.20000005
         }
         iconSquare: option[string] = {
-            "ASSETS/Characters/SRU_Baron/HUD/Baron_Square.dds"
+            "ASSETS/Characters/SRU_Baron/HUD/Baron_Square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             hpPerTick: f32 = 1000

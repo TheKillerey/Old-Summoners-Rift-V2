@@ -95,13 +95,13 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Flesh"
         iconCircle: option[string] = {
-            "ASSETS/Characters/sru_dragon_air/HUD/Dragon_Air_Circle.dds"
+            "ASSETS/Characters/sru_dragon_air/HUD/Dragon_Air_Circle.tex"
         }
         iconCircleScale: option[f32] = {
             1.20000005
         }
         iconSquare: option[string] = {
-            "ASSETS/Characters/sru_dragon_air/HUD/Dragon_Air_Square.dds"
+            "ASSETS/Characters/sru_dragon_air/HUD/Dragon_Air_Square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             hpPerTick: f32 = 1000

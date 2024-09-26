@@ -39,13 +39,13 @@ entries: map[hash,embed] = {
             }
         }
         iconCircle: option[string] = {
-            "Brambleback_Circle.dds"
+            "Brambleback_Circle.tex"
         }
         iconCircleScale: option[f32] = {
             1.20000005
         }
         iconSquare: option[string] = {
-            "Brambleback_Square.dds"
+            "Brambleback_Square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             hpPerTick: f32 = 1000

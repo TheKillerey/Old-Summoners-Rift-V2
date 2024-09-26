@@ -45,13 +45,13 @@ entries: map[hash,embed] = {
             }
         }
         iconCircle: option[string] = {
-            "BlueSentinel_Circle.dds"
+            "BlueSentinel_Circle.tex"
         }
         iconCircleScale: option[f32] = {
             1.20000005
         }
         iconSquare: option[string] = {
-            "BlueSentinel_Square.dds"
+            "BlueSentinel_Square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             hpPerTick: f32 = 1000

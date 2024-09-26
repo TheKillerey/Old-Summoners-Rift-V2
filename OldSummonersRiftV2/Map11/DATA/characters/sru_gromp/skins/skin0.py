@@ -43,10 +43,10 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Flesh"
         iconCircle: option[string] = {
-            "Gromp_Circle.dds"
+            "Gromp_Circle.tex"
         }
         iconSquare: option[string] = {
-            "Gromp_Square.dds"
+            "Gromp_Square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 5
