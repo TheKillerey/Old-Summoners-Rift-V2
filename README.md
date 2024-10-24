@@ -4,6 +4,12 @@ Welcome to the **Old Summoners Rift V2** custom skin mod! This mod brings back t
 
 ![Snapshot_5](https://github.com/user-attachments/assets/97a8432f-4d34-412d-adf6-4e2938a1cf59)
 
+## Patches
+
+Confirmed by a few people that it works / loads for RIOT's PATCH 14.21 - China is not confirmed yet.
+Please check your csmanager if there are some other issues.
+If you have ingame crashes report it here or on my Discord.
+
 ## Features
 
 - **Classic Map Textures**: Experience the old Summoner's Rift with all its classic textures, including jungle camps, Baron, Dragons, and minions.
