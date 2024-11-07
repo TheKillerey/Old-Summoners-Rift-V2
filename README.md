@@ -6,7 +6,7 @@ Welcome to the **Old Summoners Rift V2** custom skin mod! This mod brings back t
 
 ## Patches
 
-Confirmed by a few people that it works / loads for RIOT's PATCH 14.21 - China is not confirmed yet.
+Confirmed by a few people that it works / loads for RIOT's PATCH 14.22 - China is not confirmed yet.
 Please check your csmanager if there are some other issues.
 If you have ingame crashes report it here or on my Discord.
 
