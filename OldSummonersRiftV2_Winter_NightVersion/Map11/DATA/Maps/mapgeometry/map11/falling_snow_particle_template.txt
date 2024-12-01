@@ -1,0 +1,652 @@
+    "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 50
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 8
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            6
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Snow2"
+                importance: u8 = 2
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -80, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -50, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 2500, 50, 15 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 2500, 50, 15 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        keyValues: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                times: list[f32] = {
+                                    0
+                                }
+                                values: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 1.00000012, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                particleColorTexture: string = "ASSETS/Maps/Particles/Cherry/DefaultColorOverlifetime.dds"
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.650980413 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.663157105, 0.833203614, 0.945784688, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.663157105, 0.833203614, 0.945784688, 0 }
+                            { 0.663157105, 0.833203614, 0.945784688, 1 }
+                            { 0.663157105, 0.833203614, 0.945784688, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 2
+                particleIsLocalOrientation: flag = true
+                isDirectionOriented: flag = true
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 180, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 10, 4, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 10, 4, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.5, 0.5, 0 }
+                            { 1, 1, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Maps/Particles/Cherry/Cherry_Env_A_Snow.dds"
+                numFrames: u16 = 4
+                texDiv: vec2 = { 2, 2 }
+            }
+        }
+        particleName: string = "Cherry_Env_A_FallingSnow_Mapwide"
+        particlePath: string = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+        flags: u16 = 197
+    }
+
+
+
+
+"FallingSnow_1" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    2500, 709.385254, 2500, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide1"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_2" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    3753.39, 709.385254, 1399.63, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide2"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_3" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    1382.03, 709.385254, 3835.52, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide3"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_4" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    2656.17, 709.385254, 6837.71, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide4"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_5" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    2656.17, 709.385254, 9471.63, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide5"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_6" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    2656.17, 709.385254, 11649.49, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide6"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_7" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    5311.68, 709.385254, 11649.49, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide7"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_8" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    5311.68, 709.385254, 8784.32, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide8"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_9" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    5311.68, 709.385254, 5292.31, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide9"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_10" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    5311.68, 709.385254, 2384.78, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide10"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_11" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    7327.71, 709.385254, 1757.29, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide11"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_12" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    7827.95, 709.385254, 4819.62, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide12"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_13" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    7827.95, 709.385254, 7347.92, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide13"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_14" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    7827.95, 709.385254, 10227.09, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide14"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_15" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    7827.95, 709.385254, 13051.36, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide15"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_16" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    9918.26, 709.385254, 13051.36, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide16"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_17" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    9918.26, 709.385254, 10241.02, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide17"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_18" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    9918.26, 709.385254, 8357.21, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide18"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_19" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    9918.26, 709.385254, 5788.86, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide19"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_20" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    9918.26, 709.385254, 4193.19, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide20"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_21" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    9918.26, 709.385254, 2243.91, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide21"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_22" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    9918.26, 709.385254, 995.60, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide22"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_23" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    11868.80, 709.385254, 1576.89, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide23"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_24" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    11868.80, 709.385254, 4430.95, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide24"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_25" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    11868.80, 709.385254, 7011.39, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide25"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_26" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    11868.80, 709.385254, 9843.71, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide26"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_27" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    11868.80, 709.385254, 13047.69, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide27"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_28" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    13712.72, 709.385254, 13726.56, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide28"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_29" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    13712.72, 709.385254, 11285.22, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide29"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_30" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    13712.72, 709.385254, 8411.34, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide30"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_31" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    13712.72, 709.385254, 5195.25, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide31"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_32" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    13256.01, 709.385254, 2979.54, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide32"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
+"FallingSnow_33" = MapParticle {
+                transform: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.999999881, 0
+                    13475.84, 709.385254, 1380.87, 1
+                }
+                name: string = "Cherry_Env_A_FallingSnow_Mapwide33"
+                mVisibilityFlags: u8 = 255
+                system: link = "Maps/Shipping/Map30/Particles/Cherry_Env_A_FallingSnow_Mapwide"
+                AllDimensions: bool = true
+            }
