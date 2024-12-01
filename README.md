@@ -23,6 +23,7 @@ If you have ingame crashes report it here or on my Discord.
 - **Long Time-Support**: I added a feature that allows me to avoid Riot's name changes and after-update crashes.
 - **Old Loading Screen**: Version 1.0.1 supports the Old Loading Screen for all map versions.
 - **Rift of the Unbound Version**: Changes the map to the Rift of the Unbound color style.
+- **Winter's Rift Version**: Changes the map to the 2014 version of Old Winter's Rift.
 
 ## Screenshots
 
@@ -56,10 +57,17 @@ If you have ingame crashes report it here or on my Discord.
   <img src="https://github.com/user-attachments/assets/ce436ae2-b51c-476d-ba7f-6a6e6f1679f7" width="400">
 </p>
 
+### Winter's Rift Version
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/aa3b1a88-5f42-4548-8fed-d984479165ee" width="400">
+  <img src="https://github.com/user-attachments/assets/1ed03b24-6f9c-42af-85c4-26b5a2933c27" width="400">
+</p>
+
 ## Trailer
 
 [Old Summoners Rift V2 - Custom Skin Mod | League of Legends](https://www.youtube.com/watch?v=Yxs1-8Q_prQ)  
-[TheKillerey & QueenRey - Speared & Forgotten | Old Rift of the Unbound](https://www.youtube.com/watch?v=Xkwqm-TUXmI)
+[TheKillerey & QueenRey - Speared & Forgotten | Old Rift of the Unbound](https://www.youtube.com/watch?v=Xkwqm-TUXmI)  
+[Old Winter's Rift V2 - Custom Skin Mod | League of Legends](https://www.youtube.com/watch?v=nZJARakYUqw)
 
 ## Installation Instructions
 
