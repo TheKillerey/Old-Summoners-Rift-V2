@@ -257,7 +257,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_LightningErosion03.dds"
+                    erosionMapName: string = "ASSETS/Items/6697/Particles/6697_Hubris_LightningErosion.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -315,7 +315,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Lightning03.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_Lightning03.dds"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -575,7 +575,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/common_bigglow02.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -716,7 +716,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Taric_Base_z_little_spark.dds"
+                texture: string = "ASSETS/Items/6697/Particles/6697_Mote.dds"
             }
         }
         particleName: string = "SRU_Baron_Base_BA_Rift_tar"
@@ -811,7 +811,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Death_Mouth_Glow.DDS"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Death_Mouth_Glow.DDS"
             }
             VfxEmitterDefinitionData {
                 Audio: pointer = VfxEmitterAudio {}
@@ -899,7 +899,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Death_Mouth_Trail.DDS"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Death_Mouth_Trail.DDS"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -1374,7 +1374,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Spawn_Wave.dds"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Spawn_Wave.dds"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Baron_Gradient.tex"
@@ -1446,7 +1446,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Spawn_Wave_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Spawn_Wave_Mult.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
                     }
@@ -1657,7 +1657,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "distort"
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 1
                 pass: i16 = 1000
                 meshRenderFlags: u8 = 0
@@ -1683,7 +1683,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Items/3002/Particles/Lux_distort.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -1698,7 +1698,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash"
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -1735,7 +1735,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Items/3002/Particles/Lux_distort.dds"
             }
         }
         particleName: string = "SRU_Baron_Base_Spawn_NewWarmUp"
@@ -1910,7 +1910,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_W_Small_Mote.dds"
+                texture: string = "ASSETS/Items/3087/Particles/Kennen_Base_W_Small_Mote.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -2095,9 +2095,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 75, 50, 0 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Lux_Skin07_W_Flash.dds"
+                texture: string = "ASSETS/Shared/Particles/Lux_Flash.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Flame_trail_gradient.dds"
+                    paletteTexture: string = "ASSETS/Items/6617/Particles/6617_17.dds"
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -2242,7 +2242,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_W_Small_Mote.dds"
+                texture: string = "ASSETS/Items/3087/Particles/Kennen_Base_W_Small_Mote.dds"
             }
         }
         particleName: string = "SRU_Baron_Base_BA_newspell_cas_red_child"
@@ -2517,7 +2517,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_WaterSplash_anim.dds"
+                texture: string = "ASSETS/Characters/Sru_Crab/Skins/Base/Particles/SRU_Crab_WaterSplash_anim.dds"
                 frameRate: f32 = 30
                 numFrames: u16 = 16
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
@@ -2764,7 +2764,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_clumps.DDS"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_clumps.DDS"
                 uvMode: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -2968,7 +2968,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Spawn_Wave.dds"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Spawn_Wave.dds"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Baron_Gradient.tex"
@@ -3031,7 +3031,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Spawn_Wave_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Spawn_Wave_Mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.100000001, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -3246,9 +3246,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_RockShard_01.skn"
+                        mMeshName: string = "ASSETS/Particles/Generic_RockShards_01.skn"
                         mMeshSkeletonName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_RockShard_01.skl"
-                        mAnimationName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_RockShard_01.anm"
+                        mAnimationName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_RockShard_01.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -3350,7 +3350,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_RockShard_01.DDS"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_RockShard_01.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4297,7 +4297,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -4357,7 +4357,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                texture: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -4668,7 +4668,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Ash.dds"
+                texture: string = "ASSETS/Items/3010/Particles/Base_Ash.Boots_Update.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -4876,7 +4876,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_fireLine.DDS"
+                texture: string = "ASSETS/Items/3010/Particles/BA1_fireLine.Boots_Update.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5136,7 +5136,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -5196,7 +5196,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                texture: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -5956,7 +5956,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Shield_Windup_Distort.dds"
+                texture: string = "ASSETS/Items/3116/Particles/3116_Particles_1_391.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6687,7 +6687,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 1 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_GalaxySphere_Streaks.dds"
+                texture: string = "ASSETS/Maps/Particles/Cherry/Jhin_Skin05_R_GalaxySphere_Streaks.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1.5 }
                 }
@@ -6728,7 +6728,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.400000006 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Einstein_01_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 5 }
                     }
@@ -6814,7 +6814,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 1 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_GalaxySphere_Streaks.dds"
+                texture: string = "ASSETS/Maps/Particles/Cherry/Jhin_Skin05_R_GalaxySphere_Streaks.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1.5 }
                 }
@@ -6855,7 +6855,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.400000006 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Einstein_01_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 5 }
                     }
@@ -6902,7 +6902,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Glow01.dds"
+                texture: string = "ASSETS/Characters/Akshan/Skins/Base/Particles/Akshan_Base_Glow01.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6947,7 +6947,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Bullet_Glow.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Einstein_01_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -5 }
                     }
@@ -7024,7 +7024,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 0.800000012 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Bullet_Front.dds"
+                texture: string = "ASSETS/Items/3302/Particles/TFT_Dmg_Skin03_Bullet_Front.dds"
             }
             VfxEmitterDefinitionData {
                 Audio: pointer = VfxEmitterAudio {}
@@ -7093,7 +7093,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Einstein_01_mult.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -7614,7 +7614,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161color-hold.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/KogMaw/Skins/Skin28/Particles/E_Texture_Polygon_02.dds"
                     uvScaleMult: embed = ValueVector2 {
@@ -7691,7 +7691,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/KogMaw/Skins/Skin28/Particles/E_Texture_Border.dds"
+                texture: string = "ASSETS/Shared/Particles/Texture_Border.dds"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -7767,7 +7767,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/KogMaw/Skins/Skin28/Particles/E_Texture_Border.dds"
+                texture: string = "ASSETS/Shared/Particles/Texture_Border.dds"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -7854,7 +7854,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/KogMaw/Skins/Skin28/Particles/E_Texture_Border.dds"
+                texture: string = "ASSETS/Shared/Particles/Texture_Border.dds"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -7919,7 +7919,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/AlphaSlice_1.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
                 }
                 depthBiasFactors: vec2 = { -1, -100 }
                 stencilMode: u8 = 2
@@ -7992,7 +7992,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/AlphaSlice_1.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
                 }
                 depthBiasFactors: vec2 = { -1, -100 }
                 stencilMode: u8 = 2
@@ -8092,7 +8092,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161color-hold.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8588,7 +8588,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.StrawberryRebuild.DDS"
+                texture: string = "ASSETS/Shared/Particles/Flare-Omnimax.HA_CREPE.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8656,7 +8656,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Shared/Particles/DarkstarMode_HookHitsStarThresh_Skin05_W_Einstein_01_mult.dds"
+                    erosionMapName: string = "ASSETS/Items/3046/Particles/3046_Items_noise_01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -8677,7 +8677,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 6, 5.5, 5.5 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161color-hold.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8745,7 +8745,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Shared/Particles/DarkstarMode_HookHitsStarThresh_Skin05_W_Einstein_01_mult.dds"
+                    erosionMapName: string = "ASSETS/Items/3046/Particles/3046_Items_noise_01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -8766,7 +8766,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 6, 5.5, 5.5 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161color-hold.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Shared/Particles/color_bellcurve1.dds"
                     texAddressModeMult: u8 = 2
@@ -8949,7 +8949,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/DarkstarMode_HookHitsStarThresh_Skin05_W_Einstein_01_mult.dds"
+                    textureMult: string = "ASSETS/Items/3046/Particles/3046_Items_noise_01.dds"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -9252,7 +9252,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 0.349999994, 0 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161color-hold.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9351,7 +9351,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.Aurora.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.HA_CREPE.dds"
                     fresnel: f32 = 0.100000001
                     fresnelColor: vec4 = { 0.768627465, 0.666666687, 0.0941176489, 0 }
                 }
@@ -9715,7 +9715,6 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/KogMaw/Skins/Base/Particles/Kogmaw_Base_E_GoopWave_End.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/KogMaw/Skins/Base/Particles/DefaultColorOverlifetime.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.790005326 }
@@ -9763,7 +9762,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/KogMaw/Skins/Base/Particles/KogMaw_Base_Smoke_Erosion.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_SmokeErode.HA_CREPE.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -9889,7 +9888,6 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/KogMaw/Skins/Base/Particles/Kogmaw_Base_E_GoopWave_End.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/KogMaw/Skins/Base/Particles/DefaultColorOverlifetime.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.790005326 }
@@ -9937,7 +9935,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/KogMaw/Skins/Base/Particles/KogMaw_Base_Smoke_Erosion.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_SmokeErode.HA_CREPE.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -11203,7 +11201,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -11640,7 +11638,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_AOE_Shimmer_Mult.dds"
+                texture: string = "ASSETS/Shared/Particles/Perks_BuddyShield_Active_Avatar001.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0.00999999978 }
                 }
@@ -11682,7 +11680,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 2, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_MeshMultMask.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Morg_Base_MeshMult.TFT_Set12.dds"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 4, 1 }
@@ -11945,7 +11943,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Stars.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -11982,7 +11980,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Update_InteriorEdgeNoise.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/AurelionSol/Skins/Skin21/Particles/AurelionSol_Skin21_E_Update_InteriorEdgeNoise.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -12067,7 +12065,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Update_InteriorEdgeNoise.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/AurelionSol/Skins/Skin21/Particles/AurelionSol_Skin21_E_Update_InteriorEdgeNoise.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -12306,7 +12304,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 180
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_AOE_Shimmer_Mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Perks_BuddyShield_Active_Avatar001.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 2 }
                     }
@@ -12406,7 +12404,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 180
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_AOE_Shimmer_Mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Perks_BuddyShield_Active_Avatar001.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 2 }
                     }
@@ -13029,7 +13027,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -13095,7 +13093,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Lightning02.dds"
+                texture: string = "ASSETS/Items/6664/Particles/Kennen_Base_R_Lightning02.dds"
                 numFrames: u16 = 9
                 texDiv: vec2 = { 3, 3 }
             }
@@ -13155,7 +13153,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -13736,7 +13734,6 @@ entries: map[hash,embed] = {
                         { 0, 1, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -13981,7 +13978,6 @@ entries: map[hash,embed] = {
                         { 0, 1, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -14147,7 +14143,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 400, 70, 70 }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/common_glow-soft.dds"
+                texture: string = "ASSETS/Characters/Lucian/Skins/Base/Particles/common_glow-soft.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14246,7 +14242,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/common_ball32_02.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Sona_Skin56.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14297,7 +14293,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 400, 350, 350 }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/common_glow-soft.dds"
+                texture: string = "ASSETS/Characters/Lucian/Skins/Base/Particles/common_glow-soft.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14844,7 +14840,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/common_ball32_02.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Sona_Skin56.dds"
                 uvTransformCenter: vec2 = { 1, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_Q_mask_01.dds"
@@ -14990,7 +14986,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_ErosionPack01.dds"
+                    erosionMapName: string = "ASSETS/Items/3040/Particles/Lulu_Skin14_Z_ErosionPack01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -15063,7 +15059,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Praxis4"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/common_sru_clouds.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/sru_clouds.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -15200,7 +15196,7 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "distort1"
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/common_color-rampdown32_03.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown32_03.HA_CREPE.dds"
                 blendMode: u8 = 1
                 pass: i16 = 550
                 meshRenderFlags: u8 = 0
@@ -15575,7 +15571,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 220, 20, 20 }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_SoftGlow.dds"
+                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_SoftGlow.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15588,7 +15584,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "BelowGround3"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_aoe__dimian_02_1.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_BA_aoe_dimian_02_1.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -15618,7 +15614,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.6500001, 1, 2.5 }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_04.dds"
+                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_BA_04.dds"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         times: list[f32] = {
@@ -16211,7 +16207,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "BelowGround6"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_aoe__dimian_02_1.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_BA_aoe_dimian_02_1.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -16243,7 +16239,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 5, 0.5, 2.5 }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_04.dds"
+                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_BA_04.dds"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         times: list[f32] = {
@@ -16318,7 +16314,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_aoe__dimian_01_1.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_BA_aoe_dimian_01_1.scb"
                     }
                 }
                 color: embed = ValueColor {
@@ -16348,7 +16344,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_08.dds"
+                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_BA_08.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16585,7 +16581,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_E_Sparks_01.dds"
+                texture: string = "ASSETS/Shared/Particles/Glows_2x2_01.dds"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_Stars_gradient.dds"
@@ -16653,7 +16649,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Fissure_Underground.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/Fissure_Underground.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -16773,7 +16769,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_ErosionPack01.dds"
+                    erosionMapName: string = "ASSETS/Items/3040/Particles/Lulu_Skin14_Z_ErosionPack01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0299992375 }
                     }
@@ -17279,7 +17275,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_SmokeErode.HA_CREPE.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -17725,7 +17721,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_Smoke.DDS"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_Smoke.DDS"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
@@ -17911,9 +17907,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_RockShard_01.skn"
+                        mMeshName: string = "ASSETS/Particles/Generic_RockShards_01.skn"
                         mMeshSkeletonName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_RockShard_01.skl"
-                        mAnimationName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_RockShard_01.anm"
+                        mAnimationName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_RockShard_01.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -18012,7 +18008,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_RockShard_01.DDS"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_RockShard_01.DDS"
             }
             VfxEmitterDefinitionData {
                 Audio: pointer = VfxEmitterAudio {}
@@ -18088,7 +18084,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_groundBurn.dds"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_groundBurn.dds"
             }
             VfxEmitterDefinitionData {
                 Audio: pointer = VfxEmitterAudio {}
@@ -18322,7 +18318,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_clumps.DDS"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_clumps.DDS"
                 uvMode: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -18419,7 +18415,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_GroundDirt.dds"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_GroundDirt.dds"
             }
             VfxEmitterDefinitionData {
                 Audio: pointer = VfxEmitterAudio {}
@@ -18525,7 +18521,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_GroundDust.dds"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_GroundDust.dds"
             }
             VfxEmitterDefinitionData {
                 Audio: pointer = VfxEmitterAudio {}
@@ -18664,7 +18660,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Impactspike.dds"
+                texture: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_Impactspike.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19621,7 +19617,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_WaterSplash_anim.dds"
+                texture: string = "ASSETS/Characters/Sru_Crab/Skins/Base/Particles/SRU_Crab_WaterSplash_anim.dds"
                 frameRate: f32 = 30
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
@@ -19831,7 +19827,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Ahri/Skins/Skin86/Particles/Ahri_Skin86_3026_Items_Einstein_01_mult.SKINS_Ahri_HoL.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                 }
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
@@ -20045,7 +20041,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.10000002
-                    erosionMapName: string = "ASSETS/Characters/Ahri/Skins/Skin86/Particles/Ahri_Skin86_3026_Items_Einstein_01_mult.SKINS_Ahri_HoL.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                 }
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
@@ -20151,7 +20147,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.10000002
-                    erosionMapName: string = "ASSETS/Characters/Ahri/Skins/Skin86/Particles/Ahri_Skin86_3026_Items_Einstein_01_mult.SKINS_Ahri_HoL.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                 }
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
@@ -20625,7 +20621,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ahri/Skins/Skin86/Particles/Ahri_Skin86_Q_Stars.SKINS_Ahri_HoL.dds"
+                texture: string = "ASSETS/Items/2151/Particles/EnergyMote.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.629999995
@@ -20743,7 +20739,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ahri/Skins/Skin86/Particles/Ahri_Skin86_Sparks.SKINS_Ahri_HoL.dds"
+                texture: string = "ASSETS/Characters/Jax/Skins/Base/Particles/Jax_Base_R_Sparks.dds"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -20995,7 +20991,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Ahri/Skins/Skin86/Particles/Ahri_Skin86_Q_Noise_06.SKINS_Ahri_HoL.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_Fire_Trail_Up.HA_CREPE.dds"
                 }
                 isUniformScale: flag = true
                 isLocalOrientation: flag = false
@@ -21209,7 +21205,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Ahri/Skins/Skin86/Particles/Ahri_Skin86_Emote_Faker1_2_Blur.SKINS_Ahri_HoL.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Ahri/Skins/Skin86/Particles/Ahri_Skin86_Q_GroundTrail_color-bellcurve.SKINS_Ahri_HoL.dds"
+                    textureMult: string = "ASSETS/Items/6617/Particles/6617_21.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -2, 0 }
                     }
@@ -21555,7 +21551,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -21621,7 +21617,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Lightning02.dds"
+                texture: string = "ASSETS/Items/6664/Particles/Kennen_Base_R_Lightning02.dds"
                 numFrames: u16 = 9
                 texDiv: vec2 = { 3, 3 }
             }
@@ -21691,7 +21687,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -21828,7 +21824,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.00100000005, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_Glow5.dds"
+                texture: string = "ASSETS/Shared/Particles/AurelionSol_Skin01_Glow5.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -22520,7 +22516,7 @@ entries: map[hash,embed] = {
                 numFrames: u16 = 3
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Base_Fire_Trail_Up.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_Fire_Trail_Up.HA_CREPE.dds"
                     texDivMult: vec2 = { 2, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 2 }
@@ -22758,7 +22754,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Spawn_Wave.dds"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Spawn_Wave.dds"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Baron_Gradient.tex"
@@ -22830,7 +22826,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Spawn_Wave_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Spawn_Wave_Mult.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
                     }
@@ -23041,7 +23037,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "distort"
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 1
                 pass: i16 = 1000
                 meshRenderFlags: u8 = 0
@@ -23067,7 +23063,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Items/3002/Particles/Lux_distort.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -23082,7 +23078,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash"
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -23119,7 +23115,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Items/3002/Particles/Lux_distort.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -23134,7 +23130,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WaveOut"
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -23187,7 +23183,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "WaveOut1"
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.500099182, 0.963012159, 1 }
@@ -23258,7 +23254,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 2
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -23314,7 +23310,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "SuckIn2"
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 2
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -23864,7 +23860,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Shield_Windup_Distort.dds"
+                texture: string = "ASSETS/Items/3116/Particles/3116_Particles_1_391.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -24155,7 +24151,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_fireLine.DDS"
+                texture: string = "ASSETS/Items/3010/Particles/BA1_fireLine.Boots_Update.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -24461,7 +24457,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_SmokeErode.HA_CREPE.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -24752,7 +24748,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -25524,7 +25520,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -25583,7 +25579,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_Lightning02.dds"
+                texture: string = "ASSETS/Items/6664/Particles/Kennen_Base_R_Lightning02.dds"
                 numFrames: u16 = 9
                 texDiv: vec2 = { 3, 3 }
             }
@@ -25914,9 +25910,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/Syndra_Base_2021_R_HitFlash_Core.dds"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_2021_HitFlash_Core.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_ColorGradients.dds"
+                    paletteTexture: string = "ASSETS/Items/6665/Particles/Belveth_ColorGradients.dds"
                     paletteCount: i32 = 16
                 }
             }
@@ -26892,7 +26888,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_LightningErosion03.dds"
+                    erosionMapName: string = "ASSETS/Items/6697/Particles/6697_Hubris_LightningErosion.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26950,7 +26946,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Lightning03.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_Lightning03.dds"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -27206,7 +27202,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/common_bigglow02.StrawberryRebuild.dds"
             }
         }
         particleName: string = "SRU_Baron_Base_Spell9_HornChargeUp"
@@ -27470,7 +27466,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.200000003, 0.200000003, 2 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_GalaxySphere_Streaks.dds"
+                texture: string = "ASSETS/Maps/Particles/Cherry/Jhin_Skin05_R_GalaxySphere_Streaks.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1.5 }
                 }
@@ -27511,7 +27507,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.400000006 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Einstein_01_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 5 }
                     }
@@ -27591,7 +27587,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.200000003, 0.200000003, 1.20000005 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_GalaxySphere_Streaks.dds"
+                texture: string = "ASSETS/Maps/Particles/Cherry/Jhin_Skin05_R_GalaxySphere_Streaks.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1.5 }
                 }
@@ -27632,7 +27628,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.400000006 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Einstein_01_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 5 }
                     }
@@ -27676,7 +27672,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Glow01.dds"
+                texture: string = "ASSETS/Characters/Akshan/Skins/Base/Particles/Akshan_Base_Glow01.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27721,7 +27717,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Bullet_Glow.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Einstein_01_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -5 }
                     }
@@ -27798,9 +27794,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 2, 1 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Bullet_Front.dds"
+                texture: string = "ASSETS/Items/3302/Particles/TFT_Dmg_Skin03_Bullet_Front.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Einstein_01_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -5 }
                     }
@@ -27877,7 +27873,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 2, 1 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Bullet_Front.dds"
+                texture: string = "ASSETS/Items/3302/Particles/TFT_Dmg_Skin03_Bullet_Front.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27917,7 +27913,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 0.800000012 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Bullet_Front.dds"
+                texture: string = "ASSETS/Items/3302/Particles/TFT_Dmg_Skin03_Bullet_Front.dds"
             }
         }
         particleName: string = "SRU_Baron_Base_AcidBall_Champion"
@@ -28086,7 +28082,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -28148,7 +28144,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                texture: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -28572,7 +28568,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_WaterSplash_anim.dds"
+                texture: string = "ASSETS/Characters/Sru_Crab/Skins/Base/Particles/SRU_Crab_WaterSplash_anim.dds"
                 frameRate: f32 = 30
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
@@ -28772,7 +28768,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_deathBreath_indicator.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Fire_Trail_Up.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_Fire_Trail_Up.HA_CREPE.dds"
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -28943,7 +28939,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Glow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Fire_Trail_Up.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_Fire_Trail_Up.HA_CREPE.dds"
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -29575,7 +29571,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_SmokeErode.HA_CREPE.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -29806,7 +29802,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_W_Small_Mote.dds"
+                texture: string = "ASSETS/Items/3087/Particles/Kennen_Base_W_Small_Mote.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -29875,9 +29871,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 75, 50, 0 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Lux_Skin07_W_Flash.dds"
+                texture: string = "ASSETS/Shared/Particles/Lux_Flash.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Flame_trail_gradient.dds"
+                    paletteTexture: string = "ASSETS/Items/6617/Particles/6617_17.dds"
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -30138,7 +30134,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_W_Small_Mote.dds"
+                texture: string = "ASSETS/Items/3087/Particles/Kennen_Base_W_Small_Mote.dds"
             }
         }
         particleName: string = "SRU_Baron_Base_W_Missile_child"
@@ -30348,7 +30344,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_fireLine.DDS"
+                texture: string = "ASSETS/Items/3010/Particles/BA1_fireLine.Boots_Update.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30608,7 +30604,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -30668,7 +30664,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                texture: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -30775,7 +30771,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_fireLine.DDS"
+                texture: string = "ASSETS/Items/3010/Particles/BA1_fireLine.Boots_Update.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -31083,7 +31079,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_SmokeErode.HA_CREPE.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -31428,7 +31424,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -31919,7 +31915,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -31979,7 +31975,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                texture: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -32082,7 +32078,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Spawn_Wave.dds"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Spawn_Wave.dds"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Baron_Gradient.tex"
@@ -32145,7 +32141,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Spawn_Wave_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Spawn_Wave_Mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.100000001, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -32467,7 +32463,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_WaterSplash_anim.dds"
+                texture: string = "ASSETS/Characters/Sru_Crab/Skins/Base/Particles/SRU_Crab_WaterSplash_anim.dds"
                 frameRate: f32 = 30
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
@@ -32627,9 +32623,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_RockShard_01.skn"
+                        mMeshName: string = "ASSETS/Particles/Generic_RockShards_01.skn"
                         mMeshSkeletonName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_RockShard_01.skl"
-                        mAnimationName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_RockShard_01.anm"
+                        mAnimationName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_RockShard_01.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -32968,7 +32964,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA1_clumps.DDS"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_clumps.DDS"
                 uvMode: u8 = 2
             }
         }
@@ -33142,7 +33138,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 3 }
@@ -33220,7 +33216,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 3 }
@@ -33796,7 +33792,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_RockShard_01.skn"
+                        mMeshName: string = "ASSETS/Particles/Generic_RockShards_01.skn"
                         mMeshSkeletonName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_RockShard_01.skl"
                         mAnimationName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/BA1_RockShard_01.anm"
                     }
@@ -34905,7 +34901,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_2021_HitFlash_Core.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_ColorGradients.dds"
+                    paletteTexture: string = "ASSETS/Items/6665/Particles/Belveth_ColorGradients.dds"
                     paletteCount: i32 = 16
                 }
             }
@@ -35562,7 +35558,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Brand/Skins/Base/Particles/Brand_Base_Cape_Nebula.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_mult.dds"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -35844,7 +35840,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Brand/Skins/Base/Particles/Base_OilySmoke_erode.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/OilySmoke_erode.StrawberryRebuild.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -36166,7 +36162,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -36224,7 +36220,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_Lightning02.dds"
+                texture: string = "ASSETS/Items/6664/Particles/Kennen_Base_R_Lightning02.dds"
                 numFrames: u16 = 9
                 texDiv: vec2 = { 3, 3 }
             }
@@ -36301,7 +36297,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionDriveSource: u8 = 1
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -36876,7 +36872,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Pull_Indicator.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                    textureMult: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
@@ -37111,7 +37107,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionDriveSource: u8 = 1
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -37893,7 +37889,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Brand/Skins/Base/Particles/Brand_Base_Cape_Nebula.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_mult.dds"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -38175,7 +38171,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Brand/Skins/Base/Particles/Base_OilySmoke_erode.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/OilySmoke_erode.StrawberryRebuild.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -38497,7 +38493,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -38555,7 +38551,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_Lightning02.dds"
+                texture: string = "ASSETS/Items/6664/Particles/Kennen_Base_R_Lightning02.dds"
                 numFrames: u16 = 9
                 texDiv: vec2 = { 3, 3 }
             }
@@ -38606,7 +38602,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/KogMaw/Skins/Skin19/Particles/color-hold.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.749996185 }
@@ -38654,7 +38649,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/KogMaw/Skins/Skin19/Particles/KogMaw_Skin19_Particles_1_438.DDS"
+                texture: string = "ASSETS/Shared/Particles/Base_Glow.SKINS_Sona_Skin56.DDS"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38682,7 +38677,7 @@ entries: map[hash,embed] = {
                         mSmoothingMode: u8 = 1
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Aurora.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_CREPE.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -38823,7 +38818,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Aurora.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_CREPE.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.0200045779, 1, 0.300007641, 0.549996197 }
@@ -38855,7 +38850,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.Aurora.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_CREPE.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.00784313772, 0.349019617, 0.262745112, 0.800000012 }
@@ -39377,7 +39372,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/KogMaw/Skins/Base/Particles/KogMaw_Base_R_AlphaSlice_1.dds"
+                    erosionMapName: string = "ASSETS/Items/3118/Particles/Brand_Skin03_AlphaSlice_1_01.dds"
                 }
                 isRandomStartFrame: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -39606,7 +39601,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Einstein_01_mult.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -40007,7 +40002,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Shield_Windup_Distort.dds"
+                texture: string = "ASSETS/Items/3116/Particles/3116_Particles_1_391.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -40206,7 +40201,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 40, 10 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Bullet_Front.dds"
+                texture: string = "ASSETS/Items/3302/Particles/TFT_Dmg_Skin03_Bullet_Front.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -40248,7 +40243,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Bullet_Glow.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Einstein_01_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -5 }
                     }
@@ -40322,7 +40317,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 0.800000012 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Bullet_Front.dds"
+                texture: string = "ASSETS/Items/3302/Particles/TFT_Dmg_Skin03_Bullet_Front.dds"
             }
         }
         particleName: string = "SRU_Baron_Base_Z_Rift_AoE_child"
@@ -40415,7 +40410,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                texture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -40450,7 +40445,6 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_ground.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/DefaultColorOverlifetime.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.26704815, 0.181551844, 0.331151307, 1 }
@@ -40489,7 +40483,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -40607,7 +40601,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -40814,7 +40808,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/black.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Mordekaiser/Skins/Skin06/Particles/Mordekaiser_Skin06_Vert_PitWipe.dds"
                     texAddressModeMult: u8 = 2
@@ -40906,7 +40900,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_PitWipeIn.dds"
+                    erosionMapName: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_E_PitWipeIn.dds"
                 }
                 miscRenderFlags: u8 = 1
                 stencilMode: u8 = 2
@@ -40928,7 +40922,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25, -0.25 }
                 }
@@ -41000,7 +40994,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_PitWipeIn.dds"
+                    erosionMapName: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_E_PitWipeIn.dds"
                 }
                 miscRenderFlags: u8 = 1
                 stencilRef: u8 = 2
@@ -41255,7 +41249,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                texture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -41622,7 +41616,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_LightningErosion03.dds"
+                    erosionMapName: string = "ASSETS/Items/6697/Particles/6697_Hubris_LightningErosion.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -41754,7 +41748,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Lightning03.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_Lightning03.dds"
                 frameRate: f32 = 8
                 numFrames: u16 = 2
                 birthUvScrollRate: embed = ValueVector2 {
@@ -41899,7 +41893,7 @@ entries: map[hash,embed] = {
                 stencilRef: u8 = 2
                 isGroundLayer: flag = true
                 useNavmeshMask: flag = true
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Flame_trail_gradient.dds"
                     paletteSelector: embed = ValueVector3 {
@@ -42000,7 +41994,7 @@ entries: map[hash,embed] = {
                 stencilRef: u8 = 2
                 isGroundLayer: flag = true
                 useNavmeshMask: flag = true
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Flame_trail_gradient.dds"
                     paletteSelector: embed = ValueVector3 {
@@ -42058,7 +42052,6 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_ground.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/DefaultColorOverlifetime.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.26704815, 0.181551844, 0.331151307, 1 }
@@ -42097,7 +42090,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -42357,7 +42350,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Rakan_Skin01_Spirit_Explosion.dds"
+                texture: string = "ASSETS/Items/3143/Particles/3143_Skin01_Spirit_Explosion.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.150000006, 0.349999994 }
@@ -42426,7 +42419,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Rakan_Skin01_Swirl.dds"
+                    textureMult: string = "ASSETS/Items/3143/Particles/3143_Skin01_Swirl.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.600000024, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -43068,7 +43061,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_WaterSplash_anim.dds"
+                texture: string = "ASSETS/Characters/Sru_Crab/Skins/Base/Particles/SRU_Crab_WaterSplash_anim.dds"
                 frameRate: f32 = 30
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
@@ -43611,7 +43604,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_WaterSplash_anim.dds"
+                texture: string = "ASSETS/Characters/Sru_Crab/Skins/Base/Particles/SRU_Crab_WaterSplash_anim.dds"
                 frameRate: f32 = 30
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
@@ -44085,7 +44078,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Rakan_Skin01_Spirit_Explosion.dds"
+                texture: string = "ASSETS/Items/3143/Particles/3143_Skin01_Spirit_Explosion.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.150000006, 0.349999994 }
@@ -44154,7 +44147,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Rakan_Skin01_Swirl.dds"
+                    textureMult: string = "ASSETS/Items/3143/Particles/3143_Skin01_Swirl.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.600000024, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -44921,7 +44914,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_LightningErosion03.dds"
+                    erosionMapName: string = "ASSETS/Items/6697/Particles/6697_Hubris_LightningErosion.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -45049,7 +45042,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Lightning03.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_Lightning03.dds"
                 frameRate: f32 = 8
                 numFrames: u16 = 2
                 birthUvScrollRate: embed = ValueVector2 {
@@ -45240,7 +45233,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_LightningErosion03.dds"
+                    erosionMapName: string = "ASSETS/Items/6697/Particles/6697_Hubris_LightningErosion.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -45367,7 +45360,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Lightning03.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_Lightning03.dds"
                 frameRate: f32 = 8
                 numFrames: u16 = 2
                 birthUvScrollRate: embed = ValueVector2 {
@@ -45557,7 +45550,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_LightningErosion03.dds"
+                    erosionMapName: string = "ASSETS/Items/6697/Particles/6697_Hubris_LightningErosion.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -45684,7 +45677,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Lightning03.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_Lightning03.dds"
                 frameRate: f32 = 8
                 numFrames: u16 = 2
                 birthUvScrollRate: embed = ValueVector2 {
@@ -45809,7 +45802,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 200, 1 }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/common_ball32_02.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Sona_Skin56.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -46023,7 +46016,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_E_SandStreaks.dds"
+                texture: string = "ASSETS/Characters/Xerath/Skins/Skin04/Particles/Xerath_Skin04_Z_SandStreaks.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -46330,7 +46323,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_Comet_Trail_01.dds"
+                texture: string = "ASSETS/Shared/Particles/Item_Spectral_Trail.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                 }
@@ -46609,7 +46602,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_Comet_Trail_01.dds"
+                texture: string = "ASSETS/Shared/Particles/Item_Spectral_Trail.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                 }
@@ -46950,7 +46943,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/black.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Mordekaiser/Skins/Skin06/Particles/Mordekaiser_Skin06_Vert_PitWipe.dds"
                     texAddressModeMult: u8 = 2
@@ -47042,7 +47035,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_PitWipeIn.dds"
+                    erosionMapName: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_E_PitWipeIn.dds"
                 }
                 miscRenderFlags: u8 = 1
                 stencilMode: u8 = 2
@@ -47064,7 +47057,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25, -0.25 }
                 }
@@ -47136,7 +47129,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_PitWipeIn.dds"
+                    erosionMapName: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_E_PitWipeIn.dds"
                 }
                 miscRenderFlags: u8 = 1
                 stencilRef: u8 = 2
@@ -47386,7 +47379,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                texture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -47481,7 +47474,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -47569,7 +47562,6 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_ground.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/DefaultColorOverlifetime.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.26704815, 0.181551844, 0.331151307, 1 }
@@ -47984,7 +47976,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_LightningErosion03.dds"
+                    erosionMapName: string = "ASSETS/Items/6697/Particles/6697_Hubris_LightningErosion.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -48116,7 +48108,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Lightning03.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_Lightning03.dds"
                 frameRate: f32 = 8
                 numFrames: u16 = 2
                 birthUvScrollRate: embed = ValueVector2 {
@@ -48279,7 +48271,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                texture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -48351,7 +48343,7 @@ entries: map[hash,embed] = {
                 stencilRef: u8 = 2
                 isGroundLayer: flag = true
                 useNavmeshMask: flag = true
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Flame_trail_gradient.dds"
                     paletteSelector: embed = ValueVector3 {
@@ -48452,7 +48444,7 @@ entries: map[hash,embed] = {
                 stencilRef: u8 = 2
                 isGroundLayer: flag = true
                 useNavmeshMask: flag = true
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Flame_trail_gradient.dds"
                     paletteSelector: embed = ValueVector3 {
@@ -48510,7 +48502,6 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_ground.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/DefaultColorOverlifetime.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.26704815, 0.181551844, 0.331151307, 1 }
@@ -48789,7 +48780,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Rakan_Skin01_Spirit_Explosion.dds"
+                texture: string = "ASSETS/Items/3143/Particles/3143_Skin01_Spirit_Explosion.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.150000006, 0.349999994 }
@@ -48858,7 +48849,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Rakan_Skin01_Swirl.dds"
+                    textureMult: string = "ASSETS/Items/3143/Particles/3143_Skin01_Swirl.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.600000024, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -49494,7 +49485,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_Glow5.dds"
+                texture: string = "ASSETS/Shared/Particles/AurelionSol_Skin01_Glow5.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50452,7 +50443,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -50954,7 +50945,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/color-bellramp.dds"
+                particleColorTexture: string = "ASSETS/Items/1103/Particles/color-bellramp.dds"
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
                 miscRenderFlags: u8 = 1
@@ -51752,9 +51743,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/SRU_Baron.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/SRU_Baron.skl"
-                        mAnimationName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Animations/SRU_Baron_Death.anm"
+                        mMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Death.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Death.skl"
+                        mAnimationName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Death.anm"
                         mSubmeshesToDraw: list[hash] = {
                             "Shield"
                             "Eye"
@@ -51795,7 +51786,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Alpha_Mult.dds"
+                    erosionMapName: string = "ASSETS/Characters/Velkoz/Skins/Base/Particles/Alpha_Mult.dds"
                 }
                 disableBackfaceCull: bool = true
                 texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Baron_Base_TX_CM.dds"
@@ -53368,7 +53359,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 3 }
@@ -53445,7 +53436,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 3 }
@@ -54396,7 +54387,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Death_child_Glow.DDS"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Death_Mouth_Glow.DDS"
             }
             VfxEmitterDefinitionData {
                 Audio: pointer = VfxEmitterAudio {}
@@ -54487,7 +54478,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Death_child_Trail.DDS"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Death_Mouth_Trail.DDS"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -55062,7 +55053,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55438,10 +55429,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Wave_Texture.dds"
+                texture: string = "ASSETS/Items/4628/Particles/Ashe_Skin17_Q_Wave_Texture.dds"
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Cape_Nebula.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_mult.dds"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -55876,7 +55867,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BallAlpha.dds"
+                texture: string = "ASSETS/Shared/Particles/ball01.StrawberryRebuild.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 1, 1, 1, 0 }
@@ -56010,7 +56001,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BallAlpha.dds"
+                texture: string = "ASSETS/Shared/Particles/ball01.StrawberryRebuild.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 1, 1, 1, 0 }
@@ -56268,7 +56259,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Praxis.scb"
+                        mSimpleMeshName: string = "ASSETS/Shared/Particles/Base_Praxis.StrawberryRebuild.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -56615,7 +56606,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -56765,7 +56756,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Belveth/Skins/Base/Particles/Belveth_Base_W_ErosionShapes01.dds"
+                    erosionMapName: string = "ASSETS/Items/1102/Particles/Yasuo_Skin54_Q_ErosionShapes01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -56966,7 +56957,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.400000006 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -57094,7 +57085,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BallAlpha.dds"
+                texture: string = "ASSETS/Shared/Particles/ball01.StrawberryRebuild.dds"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 1, 1, 1, 0 }
@@ -57280,7 +57271,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Air_swoosh.dds"
+                texture: string = "ASSETS/Items/3748/Particles/Base_Air_swoosh.dds"
                 texDiv: vec2 = { 0.699999988, 1 }
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 0.550000012 }
@@ -57448,7 +57439,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.400000006 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -57513,7 +57504,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Items/3040/Particles/Azir_color-rampdown.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.540001512 }
@@ -57599,7 +57590,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA_Enhanced_pulseWave.dds"
+                texture: string = "ASSETS/Items/6617/Particles/Diana_R_Enhanced_pulseWave.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0700000003
@@ -57742,7 +57733,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -57853,7 +57844,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_LinearSplashes_02_Dissolve.dds"
+                texture: string = "ASSETS/Items/3181/Particles/Zeri_Skin10_Q_LinearSplashes_02_Dissolve.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -58434,7 +58425,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -58695,7 +58685,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -59442,7 +59431,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Spawn_Wave.dds"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Spawn_Wave.dds"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Baron_Gradient.tex"
@@ -59505,7 +59494,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Spawn_Wave_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Spawn_Wave_Mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.100000001, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -60061,7 +60050,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "distort"
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 1
                 pass: i16 = 1000
                 meshRenderFlags: u8 = 0
@@ -60087,7 +60076,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Items/3002/Particles/Lux_distort.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -60102,7 +60091,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash"
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -60139,7 +60128,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Items/3002/Particles/Lux_distort.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -60154,7 +60143,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WaveOut"
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -60207,7 +60196,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "WaveOut1"
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_color-rampdown32.dds"
+                particleColorTexture: string = "ASSETS/Items/3181/Particles/Vladimir_color-rampdown32.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.500099182, 0.963012159, 1 }
@@ -60364,7 +60353,6 @@ entries: map[hash,embed] = {
                     radius: f32 = 500
                     height: f32 = 500
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -60705,7 +60693,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
             }
         }
         particleName: string = "SRU_Baron_Base_Avalanche_Cast"
@@ -61026,7 +61014,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/common_bigglow02.StrawberryRebuild.dds"
             }
         }
         particleName: string = "SRU_Baron_Base_Spell8_EyesChargeUp"
@@ -61318,7 +61306,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/common_color-bellcurve.dds"
+                texture: string = "ASSETS/Items/6617/Particles/6617_21.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -61359,7 +61347,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BasicGradient.dds"
+                    textureMult: string = "ASSETS/Items/6697/Particles/6697_Hubris_BasicGradient.dds"
                     texAddressModeMult: u8 = 2
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 0.25
@@ -61424,7 +61412,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 250, 250 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Items/3002/Particles/Lux_distort.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -61502,7 +61490,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Items/3040/Particles/Azir_color-rampdown.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.229999244, 0, 0.459998488, 0.280003041 }
@@ -61600,7 +61588,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_BA_Enhanced_pulseWave.dds"
+                texture: string = "ASSETS/Items/6617/Particles/Diana_R_Enhanced_pulseWave.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.899999976
@@ -61718,7 +61706,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Glow_01.dds"
+                texture: string = "ASSETS/Items/6617/Particles/6617_16.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -61761,7 +61749,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_LightningErosion03.dds"
+                    erosionMapName: string = "ASSETS/Items/6697/Particles/6697_Hubris_LightningErosion.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -61774,12 +61762,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 1000, 1 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Lightning03.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_Lightning03.dds"
                 frameRate: f32 = 10
                 numFrames: u16 = 2
                 texDiv: vec2 = { 2, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BasicGradient.dds"
+                    textureMult: string = "ASSETS/Items/6697/Particles/6697_Hubris_BasicGradient.dds"
                     texAddressModeMult: u8 = 2
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 0.25
@@ -61839,7 +61827,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -61853,7 +61841,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.14999998, 0.800000012, 1.14999998 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -61975,7 +61963,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/common_color-bellcurve.dds"
+                texture: string = "ASSETS/Items/6617/Particles/6617_21.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -62016,7 +62004,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BasicGradient.dds"
+                    textureMult: string = "ASSETS/Items/6697/Particles/6697_Hubris_BasicGradient.dds"
                     texAddressModeMult: u8 = 2
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 0.25
@@ -62099,11 +62087,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 1000, 1 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_ChainElec_01.dds"
+                texture: string = "ASSETS/Items/3087/Particles/Kennen_Base_W_ChainElec_01.dds"
                 frameRate: f32 = 10
                 numFrames: u16 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BasicGradient.dds"
+                    textureMult: string = "ASSETS/Items/6697/Particles/6697_Hubris_BasicGradient.dds"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 90
@@ -62190,7 +62178,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/common_color-bellcurve.dds"
+                texture: string = "ASSETS/Items/6617/Particles/6617_21.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -62231,7 +62219,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BasicGradient.dds"
+                    textureMult: string = "ASSETS/Items/6697/Particles/6697_Hubris_BasicGradient.dds"
                     texAddressModeMult: u8 = 2
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 0.25
@@ -62342,7 +62330,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/common_color-bellcurve.dds"
+                texture: string = "ASSETS/Items/6617/Particles/6617_21.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -62383,7 +62371,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BasicGradient.dds"
+                    textureMult: string = "ASSETS/Items/6697/Particles/6697_Hubris_BasicGradient.dds"
                     texAddressModeMult: u8 = 2
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 0.25
@@ -62443,7 +62431,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -62457,7 +62445,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.14999998, 0.800000012, 1.14999998 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                texture: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -62633,7 +62621,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Glow_01.dds"
+                texture: string = "ASSETS/Items/6617/Particles/6617_16.dds"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         times: list[f32] = {
@@ -62738,7 +62726,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/Baron_Base_SpawnReady.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_Terrain_WaterAdd_01.dds"
+                    textureMult: string = "ASSETS/Characters/Nami/Skins/Base/Particles/Nami_Base_R_WaterAdd.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -1 }
                     }
@@ -62865,7 +62853,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_LightningErosion03.dds"
+                    erosionMapName: string = "ASSETS/Items/6697/Particles/6697_Hubris_LightningErosion.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -62993,7 +62981,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Lightning03.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_Lightning03.dds"
                 frameRate: f32 = 8
                 numFrames: u16 = 2
                 birthUvScrollRate: embed = ValueVector2 {
@@ -63183,7 +63171,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_LightningErosion03.dds"
+                    erosionMapName: string = "ASSETS/Items/6697/Particles/6697_Hubris_LightningErosion.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -63310,7 +63298,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Lightning03.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_Lightning03.dds"
                 frameRate: f32 = 8
                 numFrames: u16 = 2
                 birthUvScrollRate: embed = ValueVector2 {
@@ -63499,7 +63487,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_LightningErosion03.dds"
+                    erosionMapName: string = "ASSETS/Items/6697/Particles/6697_Hubris_LightningErosion.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -63626,7 +63614,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Baron_Base_BA_Lightning03.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_Lightning03.dds"
                 frameRate: f32 = 8
                 numFrames: u16 = 2
                 birthUvScrollRate: embed = ValueVector2 {
@@ -63873,7 +63861,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/common_bigglow02.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -63970,7 +63958,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/common_bigglow02.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -64446,7 +64434,7 @@ entries: map[hash,embed] = {
             "SRU_Baron_Base_Spell7_ArmsChargeUp" = "Characters/SRU_Baron/Skins/Skin0/Particles/SRU_Baron_Base_Spell7_ArmsChargeUp"
             "SRU_Baron_Base_Spell7_HandGlows" = "Characters/SRU_Baron/Skins/Skin0/Particles/SRU_Baron_Base_Spell7_HandGlows"
             "SRU_Baron_BA_Rift_tar" = "Characters/SRU_Baron/Skins/Skin0/Particles/SRU_Baron_Base_BA_Rift_tar"
-            0xafd9b56f = "Characters/SRU_Baron/Skins/Skin0/Particles/SRU_Baron_Base_Emote_Legend_Faker"
+            "SRU_Baron_Emote_Legend_Faker" = "Characters/SRU_Baron/Skins/Skin0/Particles/SRU_Baron_Base_Emote_Legend_Faker"
         }
     }
 }

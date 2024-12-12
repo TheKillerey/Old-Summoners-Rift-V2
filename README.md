@@ -6,9 +6,13 @@ Welcome to the **Old Summoners Rift V2** custom skin mod! This mod brings back t
 
 ## Patches
 
-Confirmed by a few people that it works / loads for RIOT's PATCH 14.22 - China is not confirmed yet.
+### Loads for RIOT's PATCH 14.24 - China should also work including Practice Tool.
 Please check your csmanager if there are some other issues.
 If you have ingame crashes report it here or on my Discord.
+
+## Season 15
+The next season will add a new jungle type for the Summoners Rift map.
+If it's the only change, the Old Summoners Rift map will work but needs a little map update!
 
 ## Features
 
@@ -19,7 +23,7 @@ If you have ingame crashes report it here or on my Discord.
 - **New Baron & Dragon Map Support**: Works pretty good with Riot's latest changes to the Map.
 - **Original Grass Color**: Changes the brushes to the original color of the Old Rift.
 - **Old Minimap Style**: Changes the Minimap style to an old version.
-- **Night Version (Alpha)**: Changes the map into the night version.
+- **Night Version**: Changes the map into the night version.
 - **Long Time-Support**: I added a feature that allows me to avoid Riot's name changes and after-update crashes.
 - **Old Loading Screen**: Version 1.0.1 supports the Old Loading Screen for all map versions.
 - **Rift of the Unbound Version**: Changes the map to the Rift of the Unbound color style.

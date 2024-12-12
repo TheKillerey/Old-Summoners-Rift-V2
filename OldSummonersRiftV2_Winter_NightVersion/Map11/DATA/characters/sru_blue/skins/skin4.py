@@ -546,7 +546,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_BlueBuff_StormSphere_alt.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.530006886, 0.429999232, 0.790005326, 1 }
@@ -611,7 +611,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_dustRing_geo_tex_blue.tex"
+                texture: string = "ASSETS/Characters/SRU_Red/skins/Skin03/Particles/SRU_dustRing_geo_tex_blue.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -811,7 +811,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 600, 70, 70 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_idle_Glow_01.dds"
+                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_BA_Glow_01.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -1260,7 +1260,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_BlueBuff_Purple_Trail.tex"
+                texture: string = "ASSETS/Characters/SRU_Red/skins/Skin03/Particles/SRU_BlueBuff_Purple_Trail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.100000001, 0 }
                 }
@@ -1786,7 +1786,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_SmokeErosion.dds"
+                    erosionMapName: string = "ASSETS/Items/6655/Particles/KogMaw_Skin37_SmokeErosionT.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -1856,7 +1856,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_WispySmoke01.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Blue_Base_WispySmoke01.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -2277,7 +2277,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_SandFlecks.dds"
+                texture: string = "ASSETS/Shared/Particles/Xerath_Skin04_SandFlecks.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -2987,7 +2987,7 @@ entries: map[hash,embed] = {
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Dissolve_Cloudy_01.ViktorVGU.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.200000003 }
                     }
@@ -3155,7 +3155,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_SmokeErode.HA_CREPE.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -3229,7 +3229,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Items/1102/Particles/Janna_Skin05_Q_Cas_Dust_01.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -4576,7 +4576,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Particles/SRU_dustCloud.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/SRU_dustCloud_mult.dds"
+                    textureMult: string = "ASSETS/Particles/SRU_dustCloud_mult.dds"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -4855,7 +4855,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "dustRing"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Particles/SRU_dustRing_geo.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/common_SRU_dustRing_geo.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -5059,7 +5059,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Krug_P_Pebbles_4x4.dds"
+                texture: string = "ASSETS/Particles/SRU_Krug_BA_Pebbles_4x4.dds"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
             }
@@ -5588,7 +5588,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_clumps.tex"
+                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Base/Particles/SRU_clumps.tex"
                 uvMode: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -5608,7 +5608,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "dustRing1"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_dustRing_geo.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/common_SRU_dustRing_geo.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -5644,7 +5644,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 0.449999988, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_dustRing_geo_tex_blue.tex"
+                texture: string = "ASSETS/Characters/SRU_Red/skins/Skin03/Particles/SRU_dustRing_geo_tex_blue.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -5820,7 +5820,7 @@ entries: map[hash,embed] = {
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/Base_GradientCard01.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_GradientCard01.dds"
                 }
             }
             VfxEmitterDefinitionData {
@@ -6019,9 +6019,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Horde_Skin04_common_light_rays_01.dds"
+                texture: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/SRU_Horde_Base_common_light_rays_01.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_dustCloud_mult.dds"
+                    textureMult: string = "ASSETS/Particles/SRU_dustCloud_mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 2 }
                     }
@@ -6461,7 +6461,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_GroundLightning_Erosion_01.dds"
+                    erosionMapName: string = "ASSETS/Items/4646/Particles/KogMaw_Skin37_R_GroundLightning_Erosion_01.dds"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -6487,7 +6487,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_GroundLightning_01.dds"
+                texture: string = "ASSETS/Items/4646/Particles/LeeSin_Skin31_E_GroundLightning_01.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.5
@@ -6757,7 +6757,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_Einstein_01_mult.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Pyke_Skin64.dds"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -6874,7 +6874,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_SmokeErode.HA_CREPE.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -6993,7 +6993,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_SmokeErode.HA_CREPE.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -7541,7 +7541,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.01499999, 1.01499999, 1.01499999 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/SRU_Blue_Skin04_TX_CM.dds"
+                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Base/SRU_Blue_Base_TX_CM.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_light_wall_mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -7636,7 +7636,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.01499999, 1.01499999, 1.01499999 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/color-hold.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_light_wall_mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -7705,7 +7705,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_circle.dds"
+                texture: string = "ASSETS/Shared/Particles/Kaisa_Base_circle.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8400,7 +8400,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.01499999, 1.01499999, 1.01499999 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/SRU_Blue_Skin04_TX_CM.dds"
+                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Base/SRU_Blue_Base_TX_CM.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_light_wall_mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -8870,7 +8870,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/Skin04_VGU_Generic_Erosion01.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Base_VGU_Generic_Erosion01.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -8893,7 +8893,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/common_color-hold.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.100000001 }
                 }
@@ -8985,7 +8985,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/3026_Items_Streaks.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Streaks.dds"
                 }
                 stencilMode: u8 = 2
                 stencilRef: u8 = 4
@@ -9009,9 +9009,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/NE_Core_Mask.dds"
+                texture: string = "ASSETS/Shared/Particles/NE_Core_Mask.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/Skin04_Energy_Mult01.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_Energy_Mult01.dds"
                 }
             }
             VfxEmitterDefinitionData {
@@ -9190,7 +9190,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_SmokeErosion.dds"
+                    erosionMapName: string = "ASSETS/Items/6655/Particles/KogMaw_Skin37_SmokeErosionT.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -9240,7 +9240,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_WispySmoke01.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Blue_Base_WispySmoke01.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -9303,7 +9303,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_Particles_1_1578.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Cloudy_03.StrawberryRebuild.dds"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 5
@@ -9370,7 +9370,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_Wisp_Trail3.dds"
+                texture: string = "ASSETS/Items/2502/Particles/TFT10_Katarina_Base_Wisp_Trail3.dds"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -9565,7 +9565,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_SmokeErosion.dds"
+                    erosionMapName: string = "ASSETS/Items/6655/Particles/KogMaw_Skin37_SmokeErosionT.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -9600,7 +9600,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_WispySmoke01.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Blue_Base_WispySmoke01.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -9818,7 +9818,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_SmokeErosion.dds"
+                    erosionMapName: string = "ASSETS/Items/6655/Particles/KogMaw_Skin37_SmokeErosionT.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -9888,7 +9888,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_WispySmoke01.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Blue_Base_WispySmoke01.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -10052,7 +10052,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_Ash.dds"
+                texture: string = "ASSETS/Items/3010/Particles/Base_Ash.Boots_Update.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -10109,7 +10109,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.0599999987
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_Particles_1_1578.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Cloudy_03.StrawberryRebuild.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -10156,7 +10156,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_Glow.dds"
+                texture: string = "ASSETS/Shared/Particles/Skin05_Glow.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10422,7 +10422,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_Ash.dds"
+                texture: string = "ASSETS/Items/3010/Particles/Base_Ash.Boots_Update.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -10550,7 +10550,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.0500000007
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_SmokeErosion.dds"
+                    erosionMapName: string = "ASSETS/Items/6655/Particles/KogMaw_Skin37_SmokeErosionT.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0.500007629, 0 }
                     }
@@ -10620,11 +10620,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_WispySmoke01.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Blue_Base_WispySmoke01.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Base_SmokeErode.dds"
+                    textureMult: string = "ASSETS/Items/1103/Particles/Seraphine_Skin04_1Q_SmokeErode.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                     }
@@ -11425,7 +11425,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Krug_BA_Pebbles_4x4.dds"
+                texture: string = "ASSETS/Particles/SRU_Krug_BA_Pebbles_4x4.dds"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
             }
@@ -11990,7 +11990,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_GroundDirt.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_GroundDirt.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12243,9 +12243,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_dustCloud.dds"
+                texture: string = "ASSETS/Particles/SRU_dustCloud.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_dustCloud_mult.dds"
+                    textureMult: string = "ASSETS/Particles/SRU_dustCloud_mult.dds"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -12524,7 +12524,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "dustRing"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_dustRing_geo.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/SRU_Baron/Skins/Base/Particles/common_SRU_dustRing_geo.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -12560,7 +12560,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.300000012, 1 }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_dustRing_geo_tex.dds"
+                texture: string = "ASSETS/Particles/SRU_dustRing_geo_tex.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -12687,11 +12687,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_groundCracks_3x1.dds"
+                texture: string = "ASSETS/Particles/SRU_groundCracks_3x1.dds"
                 numFrames: u16 = 3
                 texDiv: vec2 = { 3, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_dustCloud_mult.dds"
+                    textureMult: string = "ASSETS/Particles/SRU_dustCloud_mult.dds"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -12868,7 +12868,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/Generic_RockShards_01.skn"
+                        mMeshName: string = "ASSETS/Particles/Generic_RockShards_01.skn"
                         mMeshSkeletonName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/Generic_RockShards_01.skl"
                         mAnimationName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/Generic_Rockshards_01.anm"
                     }
@@ -12970,7 +12970,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_RockShards.dds"
+                texture: string = "ASSETS/Particles/SRU_RockShards.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -13221,7 +13221,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/Flecks.dds"
+                texture: string = "ASSETS/Shared/Particles/Flecks.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -13318,7 +13318,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_Smoke_01.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/SRU_Blue_Base_Smoke_01.dds"
                 }
                 isUniformScale: flag = true
                 isGroundLayer: flag = true
@@ -13385,7 +13385,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/3026_Items_Noise_02.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.SKINS_Shaco_Skin54.dds"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -13434,7 +13434,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/3026_Items_glow_03.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_glow_03.StrawberryRebuild.dds"
                 }
             }
             VfxEmitterDefinitionData {
@@ -13612,7 +13612,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/Flecks.dds"
+                texture: string = "ASSETS/Shared/Particles/Flecks.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -13663,7 +13663,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_alpha_20.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/SRU_Blue_alpha_20.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -13682,7 +13682,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.00100000005
                     distortionMode: u8 = 3
-                    normalMapTexture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_distort-ripples.dds"
+                    normalMapTexture: string = "ASSETS/Items/3363/Particles/distort-ripples.dds"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -13733,7 +13733,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Aura_Self.dds"
+                texture: string = "ASSETS/Items/3002/Particles/Lux_distort.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0199999996
@@ -13858,7 +13858,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_Beam_Edge_Mult.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/SRU_Blue_Base_Beam_Edge_Mult.dds"
                 }
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
@@ -13991,7 +13991,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/SRU_Blue_Skin04_Smokey_beam.dds"
+                texture: string = "ASSETS/Shared/Particles/SRU_Blue_Base_Smokey_beam.dds"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -14017,7 +14017,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/SRU_Blue/Skins/Skin04/Particles/Base_GradientCard01.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_GradientCard01.dds"
                 }
             }
         }
@@ -14066,13 +14066,13 @@ entries: map[hash,embed] = {
     }
     "Characters/SRU_Blue/Skins/Skin4/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-            0x111df920 = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Skin04_BA_3_FistSlam"
-            0x98178d7c = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Skin04_Idle_DragonState"
+            "SRU_Blue_BA_3_FistSlam" = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Skin04_BA_3_FistSlam"
+            "SRU_Blue_Idle_DragonState" = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Skin04_Idle_DragonState"
             "SRU_Blue_BA_Void_Transform" = "Characters/SRU_Blue/Skins/Skin0/Particles/SRU_Blue_Base_BA_Void_Transform"
             "SRU_Blue_Buff_Get" = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Buff_Get"
-            0x2aed8ee6 = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Skin04_BA_1_FistSlam"
+            "SRU_Blue_BA_1_FistSlam" = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Skin04_BA_1_FistSlam"
             "SRU_Blue_Skin04_idle" = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Skin04_idle"
-            0x077503d1 = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Skin04_Death"
+            "SRU_Blue_Death" = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Skin04_Death"
             0xa7fa0054 = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Skin04_Spawn_GroundSlam"
             0x2fdee4d4 = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_Blue_Skin04_Spawn_JumpOut"
             "SRU_BlueBuff_Spawn_GroundSlam" = "Characters/SRU_Blue/Skins/Skin4/Particles/SRU_BlueBuff_Spawn_GroundSlam"
