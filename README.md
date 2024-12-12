@@ -69,7 +69,8 @@ If it's the only change, the Old Summoners Rift map will work but needs a little
 ## Trailer
 
 [Old Summoners Rift V2 - Custom Skin Mod | League of Legends](https://www.youtube.com/watch?v=Yxs1-8Q_prQ)  
-[TheKillerey & QueenRey - Speared & Forgotten | Old Rift of the Unbound](https://www.youtube.com/watch?v=Xkwqm-TUXmI)
+[TheKillerey & QueenRey - Speared & Forgotten | Old Rift of the Unbound](https://www.youtube.com/watch?v=Xkwqm-TUXmI)  
+[Old Winter's Rift V2 - Custom Skin Mod | League of Legends](https://www.youtube.com/watch?v=nZJARakYUqw)  
 
 ## Installation Instructions
 
