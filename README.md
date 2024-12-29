@@ -27,6 +27,7 @@ If it's the only change, the Old Summoners Rift map will work but needs a little
 - **Long Time-Support**: I added a feature that allows me to avoid Riot's name changes and after-update crashes.
 - **Old Loading Screen**: Version 1.0.1 supports the Old Loading Screen for all map versions.
 - **Rift of the Unbound Version**: Changes the map to the Rift of the Unbound color style.
+- **Old Cursed Rift Version**: Added a custom Loadingscreen
 
 ## Screenshots
 
@@ -66,11 +67,25 @@ If it's the only change, the Old Summoners Rift map will work but needs a little
   <img src="https://github.com/user-attachments/assets/918024f7-d053-486c-a22d-fad87e7070e7" width="400">
 </p>
 
+### Cursed's Version 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dd170c83-96f8-494d-a85f-e9aabc7bd473" width="400">
+  <img src="https://github.com/user-attachments/assets/d42b4876-a61e-476b-b762-cb5ab098bb49" width="400">
+</p>
+
+### Beach's Version 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5af6d09c-c3f4-42d7-bdde-3e802ffc4c60" width="400">
+  <img src="https://github.com/user-attachments/assets/8f5ee46b-15c5-4288-8783-7966627a5e9f" width="400">
+</p>
+
 ## Trailer
 
 [Old Summoners Rift V2 - Custom Skin Mod | League of Legends](https://www.youtube.com/watch?v=Yxs1-8Q_prQ)  
 [TheKillerey & QueenRey - Speared & Forgotten | Old Rift of the Unbound](https://www.youtube.com/watch?v=Xkwqm-TUXmI)  
 [Old Winter's Rift V2 - Custom Skin Mod | League of Legends](https://www.youtube.com/watch?v=nZJARakYUqw)  
+[Old Cursed Rift & Old Beach Rift - League of Legends Custom Skin [Official Gameplay Trailer]](https://www.youtube.com/watch?v=SmzAOXQgRIc)  
+
 
 ## Installation Instructions
 
@@ -99,6 +114,7 @@ If it's the only change, the Old Summoners Rift map will work but needs a little
 - **tassio** - Contributions to old particles for the old structures and old files, Nexus, Inhibitors.
 - **Leischii** - Helped fix some old particles.
 - **BlooJae** - Uploaded the mod to RuneForge.
+- **Yurixy** - Original Beach Rift Custom Skin
 
 ## Contributing
 
