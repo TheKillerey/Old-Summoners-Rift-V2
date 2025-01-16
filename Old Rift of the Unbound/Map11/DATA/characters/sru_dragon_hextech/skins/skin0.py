@@ -95,13 +95,13 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Flesh"
         iconCircle: option[string] = {
-            "ASSETS/Characters/sru_dragon_hextech/HUD/Icons2D/Dragon_Circle_Hextech.dds"
+            "ASSETS/Characters/sru_dragon_hextech/HUD/Icons2D/Dragon_Circle_Hextech.tex"
         }
         iconCircleScale: option[f32] = {
             1.20000005
         }
         iconSquare: option[string] = {
-            "ASSETS/Characters/sru_dragon_hextech/HUD/Icons2D/Dragon_Square_Hextech.dds"
+            "ASSETS/Characters/sru_dragon_hextech/HUD/Icons2D/Dragon_Square_Hextech.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             hpPerTick: f32 = 1000
@@ -128,7 +128,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 7.82505798 }
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -217,13 +217,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_GroundBurst.dds"
                     texDivMult: vec2 = { 4, 1 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
-                    0x22c3cf3e: embed = IntegratedValueVector2 {
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -3 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -275,7 +275,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 7.82505798 }
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -348,10 +348,10 @@ entries: map[hash,embed] = {
                     }
                 }
                 texDiv: vec2 = { 4, 1 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_GroundBurst.dds"
                     texDivMult: vec2 = { 4, 1 }
-                    0x22c3cf3e: embed = IntegratedValueVector2 {
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -1.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -403,7 +403,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 7.82505798 }
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -458,10 +458,10 @@ entries: map[hash,embed] = {
                 frameRate: f32 = 6
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_GroundBurst.dds"
                     texDivMult: vec2 = { 4, 1 }
-                    0x22c3cf3e: embed = IntegratedValueVector2 {
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 3 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -513,10 +513,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -577,7 +577,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Shared/Particles/Hextech_Linear_Vertical.dds"
                 }
             }
@@ -596,10 +596,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -629,7 +629,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 250, 1, 1 }
                 }
                 texture: string = "ASSETS/Shared/Particles/Hextech_Linear_Vertical.dds"
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -649,10 +649,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {}
@@ -668,7 +668,7 @@ entries: map[hash,embed] = {
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -4.5, 0 }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -688,7 +688,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 7.82505798 }
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -731,7 +731,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0, 1 }
                 }
                 texDiv: vec2 = { 4, 1 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -750,10 +750,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -788,7 +788,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Shared/Particles/Hextech_Linear_Vertical.dds"
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -807,7 +807,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 7.82505798 }
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -854,7 +854,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { -1, 0 }
                 }
                 texDiv: vec2 = { 4, 1 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -874,10 +874,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -923,7 +923,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Shared/Particles/Hextech_Linear_Vertical.dds"
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -948,10 +948,10 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ground_Glow"
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -150, 0 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -1028,7 +1028,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
@@ -1077,7 +1077,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -1148,7 +1148,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -1262,10 +1262,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -50, 0 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -1447,7 +1447,7 @@ entries: map[hash,embed] = {
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0.5 }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -1471,7 +1471,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -1658,7 +1658,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 8
                 }
@@ -1841,7 +1841,7 @@ entries: map[hash,embed] = {
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 5, 5, 5 }
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 8
                 }
@@ -1981,7 +1981,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -2038,7 +2038,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/Morgana_Skin06_BA_Tar_Hot.dds"
+                texture: string = "ASSETS/Maps/Particles/Cherry/Morgana_Skin06_BA_Tar_Hot.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -2084,7 +2084,7 @@ entries: map[hash,embed] = {
                     0.449999988
                 }
                 emitterName: string = "W_Cast_Electricity"
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 40
                 }
@@ -2177,7 +2177,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook_3x3.dds"
+                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook.dds"
                 frameRate: f32 = 28
                 numFrames: u16 = 9
                 startFrame: u16 = 1
@@ -2227,11 +2227,11 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 150
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 20, 0 }
                 }
                 blendMode: u8 = 4
@@ -2360,7 +2360,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "FloorShockwave"
                 importance: u8 = 2
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { -113.022003, -50, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
@@ -2531,7 +2531,7 @@ entries: map[hash,embed] = {
                 emitterLinger: option[f32] = {}
                 emitterName: string = "lightning_RuneWars1"
                 importance: u8 = 2
-                0x3bf0b4ed: pointer = 0x12ab94a6 {
+                SpawnShape: pointer = VfxShapeCylinder {
                     radius: f32 = 12
                 }
                 primitive: pointer = VfxPrimitiveMesh {
@@ -2831,11 +2831,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x12ab94a6 {
+                SpawnShape: pointer = VfxShapeCylinder {
                     flags: u8 = 1
                     radius: f32 = 120
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { -55.5645142, -60, 0 }
                 }
                 blendMode: u8 = 1
@@ -3086,11 +3086,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x12ab94a6 {
+                SpawnShape: pointer = VfxShapeCylinder {
                     flags: u8 = 1
                     radius: f32 = 60
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { -55.5645142, -52.8371964, 0 }
                 }
                 blendMode: u8 = 1
@@ -3340,7 +3340,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 60, 0, 0 }
                     }
@@ -3397,7 +3397,7 @@ entries: map[hash,embed] = {
                         { 0, 1, 0 }
                     }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { -60, -52, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
@@ -3803,7 +3803,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { -110, 50, 0 }
                 }
                 blendMode: u8 = 4
@@ -3835,7 +3835,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 96, 96 }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_glow.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Ezreal_Skin65.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -3853,10 +3853,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { -110, 100, 0 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 33.4129982, 7.46899986, 0 }
                 }
                 blendMode: u8 = 4
@@ -3887,7 +3887,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 96, 96 }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_glow.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_ball32_02.SKINS_Sona_Skin56.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -3924,11 +3924,11 @@ entries: map[hash,embed] = {
                     0.349999994
                 }
                 emitterName: string = "Electricity_AlwaysOn"
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 2
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { -81.586998, 100, 0 }
                 }
                 blendMode: u8 = 4
@@ -4041,7 +4041,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook_3x3.dds"
+                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook.dds"
                 frameRate: f32 = 28
                 numFrames: u16 = 9
                 startFrame: u16 = 1
@@ -4157,11 +4157,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 8
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { -81.586998, 95.3339996, 0 }
                 }
                 particleColorTexture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_SparksRandomRamp.dds"
@@ -4381,11 +4381,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 8
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { -81.586998, 95.3339996, 0 }
                 }
                 particleColorTexture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_SparksRandomRamp.dds"
@@ -4542,11 +4542,11 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 150
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 200, 0 }
                 }
                 blendMode: u8 = 4
@@ -4731,10 +4731,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 200, 100 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -4795,10 +4795,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 200, 100 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -4888,11 +4888,11 @@ entries: map[hash,embed] = {
                     0.349999994
                 }
                 emitterName: string = "Electricity_AlwaysOn1"
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 2
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { -81.586998, 100, 0 }
                 }
                 blendMode: u8 = 4
@@ -5116,12 +5116,12 @@ entries: map[hash,embed] = {
                     }
                 }
                 texAddressModeBase: u8 = 2
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Ashe_Base_ground_CrackNoise_mult.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 3 }
                     }
-                    0x22c3cf3e: embed = IntegratedValueVector2 {
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0.5, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -5259,11 +5259,11 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 120
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 350, 100 }
                 }
                 particleColorTexture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_SparksRandomRamp.dds"
@@ -5501,10 +5501,10 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ground_Glow"
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -100, 0 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -5552,7 +5552,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 220, 1 }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Shared/Particles/Aura_Self.TFT_Booms_Zed_Galaxyslayer.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5569,10 +5569,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 80, 0 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -5626,7 +5626,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Shared/Particles/Aura_Self.TFT_Booms_Zed_Galaxyslayer.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -5656,10 +5656,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -100, 0 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -5739,7 +5739,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -5926,7 +5926,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 8
                 }
@@ -6109,7 +6109,7 @@ entries: map[hash,embed] = {
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 5, 5, 5 }
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 8
                 }
@@ -6245,7 +6245,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Distort"
-                particleColorTexture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_BA_Cas_Distort.dds"
+                particleColorTexture: string = "ASSETS/Items/3026/Particles/3026_Items_Distort.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -6263,7 +6263,7 @@ entries: map[hash,embed] = {
                 }
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0500000007
-                    normalMapTexture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_BA_distortion_soundwaves_01.dds"
+                    normalMapTexture: string = "ASSETS/Items/3026/Particles/3026_Items_soundwaves_01.dds"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -6302,7 +6302,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_BA_white_RGB.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_white_RGB.StrawberryRebuild.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6331,7 +6331,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
@@ -6363,7 +6363,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Shared/Particles/Aura_Self.TFT_Booms_Zed_Galaxyslayer.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6421,7 +6421,7 @@ entries: map[hash,embed] = {
                     0.600000024
                 }
                 emitterName: string = "W_Cast_Electricity"
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 40
                 }
@@ -6539,7 +6539,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook_3x3.dds"
+                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook.dds"
                 frameRate: f32 = 28
                 numFrames: u16 = 9
                 startFrame: u16 = 1
@@ -6560,7 +6560,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -6680,7 +6680,7 @@ entries: map[hash,embed] = {
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 5, 5, 5 }
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 8
                 }
@@ -6822,7 +6822,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00199997, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_BA_white_RGB.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_white_RGB.StrawberryRebuild.dds"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -6855,7 +6855,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00199997, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_BA_white_RGB.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_white_RGB.StrawberryRebuild.dds"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -6897,7 +6897,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -7147,7 +7147,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -7204,7 +7204,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/Morgana_Skin06_BA_Tar_Hot.dds"
+                texture: string = "ASSETS/Maps/Particles/Cherry/Morgana_Skin06_BA_Tar_Hot.dds"
             }
         }
         particleName: string = "SRU_Dragon_Hextech_BA_Empowered_Tar"
@@ -7271,11 +7271,11 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 12
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 29.9339371, 0 }
                 }
                 blendMode: u8 = 4
@@ -7415,7 +7415,7 @@ entries: map[hash,embed] = {
                     0.600000024
                 }
                 emitterName: string = "Temp_Mesh"
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 30, 32.6839981, 0 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
@@ -7506,7 +7506,7 @@ entries: map[hash,embed] = {
                     0.600000024
                 }
                 emitterName: string = "Temp_Mesh3"
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 46.5015717, 42.9827118, 0 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
@@ -7558,7 +7558,7 @@ entries: map[hash,embed] = {
                     0.600000024
                 }
                 emitterName: string = "Temp_Mesh4"
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 30, 32.6839981, 0 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
@@ -7653,7 +7653,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Charged_Beam_Core"
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 30, 32.6839981, 0 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
@@ -7702,7 +7702,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Gradient_Linear_Vertical01.dds"
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Gradient_Linear_Vertical04.dds"
                 }
             }
@@ -7719,7 +7719,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Charged_Beam_Core1"
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 46.5015717, 42.9827118, 0 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
@@ -7770,7 +7770,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Gradient_Linear_Vertical01.dds"
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Gradient_Linear_Vertical04.dds"
                 }
             }
@@ -7791,10 +7791,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 15, 0 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 37.1792793, 21.4092751, 0 }
                 }
                 blendMode: u8 = 4
@@ -7930,11 +7930,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 20
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 25, 0 }
                 }
                 particleColorTexture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_SparksRandomRamp.dds"
@@ -8068,7 +8068,7 @@ entries: map[hash,embed] = {
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -20, 0 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 35, 0 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
@@ -8104,7 +8104,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/SRU_Dragon_Hextech_TX_CM.dds"
                 uvMode: u8 = 2
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Death_Mult.dds"
                 }
             }
@@ -8124,7 +8124,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "groundBurn"
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
@@ -8174,7 +8174,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 380, 380, 0 }
                 }
                 texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Death_groundBurn.dds"
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Death_groundBurn_mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.0599999987 }
@@ -8264,7 +8264,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 50, 60, 100 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -8311,7 +8311,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 15, 0 }
                 }
                 blendMode: u8 = 1
@@ -8487,7 +8487,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 0, 0, 100 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -8514,7 +8514,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 15, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
@@ -8641,7 +8641,7 @@ entries: map[hash,embed] = {
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 3, 3, 3 }
                 }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 0, 0, 100 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -8722,7 +8722,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 400, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
@@ -8859,7 +8859,7 @@ entries: map[hash,embed] = {
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 4, 4, 4 }
                 }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 60, 0, 0 }
                     }
@@ -8916,7 +8916,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 400, 0 }
                 }
                 blendMode: u8 = 1
@@ -9000,8 +9000,8 @@ entries: map[hash,embed] = {
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                 }
-                textureMult: pointer = 0xb097c1bd {
-                    textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_ground_CrackNoise_mult.dds"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Ashe/Skins/Base/Particles/Ashe_Base_ground_CrackNoise_mult.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.300000012 }
                     }
@@ -9058,7 +9058,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 400, 0 }
                 }
                 blendMode: u8 = 4
@@ -9122,7 +9122,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Dragon_ChemTech/skins/base/Particles/sru_dragon_chemtech_Base_Glow.dds"
+                texture: string = "ASSETS/Shared/Particles/Gragas_Skin11_Glow.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0799999982
@@ -9212,7 +9212,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 0, 0, 130 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -9291,7 +9291,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 400, 0 }
                 }
                 blendMode: u8 = 4
@@ -9380,7 +9380,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_Dragon_ChemTech/skins/base/Particles/sru_dragon_chemtech_Base_Glow.dds"
+                texture: string = "ASSETS/Shared/Particles/Gragas_Skin11_Glow.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.699999988
@@ -9439,7 +9439,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "W_Cast_Electricity"
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 40
                 }
@@ -9557,7 +9557,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook_3x3.dds"
+                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook.dds"
                 frameRate: f32 = 28
                 numFrames: u16 = 9
                 startFrame: u16 = 1
@@ -9580,7 +9580,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
                             probabilityTables: list[pointer] = {
@@ -9605,7 +9605,7 @@ entries: map[hash,embed] = {
                         { 0, 0, 0 }
                     }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { -13.0765305, -9.39466095, 37.4409943 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
@@ -9613,7 +9613,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_DragonPit_DragonGroundShapes.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.dds"
+                particleColorTexture: string = "ASSETS/Maps/Particles/SR/common_alpha_21.HA_CREPE.dds"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.400000006 }
                 }
@@ -9688,12 +9688,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_DragonPitBase_01_Guide.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.25 }
                     }
-                    0x22c3cf3e: embed = IntegratedValueVector2 {
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { -0.5, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -9724,7 +9724,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 18.9953461, 10, 50.3961182 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
@@ -9846,7 +9846,7 @@ entries: map[hash,embed] = {
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0.300000012 }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -9866,7 +9866,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 18.9953461, 10, 50.3961182 }
                 }
                 primitive: pointer = VfxPrimitiveMesh {
@@ -9988,7 +9988,7 @@ entries: map[hash,embed] = {
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0.300000012 }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -10052,10 +10052,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -8.46441269, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -10126,7 +10126,7 @@ entries: map[hash,embed] = {
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0.400000006 }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -10144,10 +10144,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -8.46441269, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -10187,10 +10187,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -10228,7 +10228,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Shared/Particles/Hextech_Linear_Vertical.dds"
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -10292,10 +10292,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -50, 0 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -10477,7 +10477,7 @@ entries: map[hash,embed] = {
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0.5 }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -10505,7 +10505,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 1, 1, 1 }
                 }
                 blendMode: u8 = 4
@@ -10609,7 +10609,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/LeeSin/Skins/Skin31/Particles/LeeSin_Aura_Self.dds"
+                texture: string = "ASSETS/Items/3002/Particles/Lux_distort.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.150000006
@@ -10716,7 +10716,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -10900,7 +10900,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 0.5
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 8
                 }
@@ -11487,7 +11487,7 @@ entries: map[hash,embed] = {
                     0.600000024
                 }
                 emitterName: string = "W_Cast_Electricity2"
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 40
                 }
@@ -11580,7 +11580,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook_3x3.dds"
+                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook.dds"
                 frameRate: f32 = 28
                 numFrames: u16 = 9
                 startFrame: u16 = 1
@@ -11608,7 +11608,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 7.82505798 }
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -11682,7 +11682,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { -0.449999988, 0 }
                 }
                 texDiv: vec2 = { 4, 1 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -11702,7 +11702,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 7.82505798 }
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -11791,7 +11791,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -11811,7 +11811,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 7.82505798 }
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -11884,10 +11884,10 @@ entries: map[hash,embed] = {
                     }
                 }
                 texDiv: vec2 = { 4, 1 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_GroundBurst.dds"
                     texDivMult: vec2 = { 4, 1 }
-                    0x22c3cf3e: embed = IntegratedValueVector2 {
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -3 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -11939,7 +11939,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 7.82505798 }
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -11994,13 +11994,13 @@ entries: map[hash,embed] = {
                 frameRate: f32 = 6
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_GroundBurst.dds"
                     texDivMult: vec2 = { 4, 1 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
-                    0x22c3cf3e: embed = IntegratedValueVector2 {
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 3 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -12052,10 +12052,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -12116,7 +12116,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Shared/Particles/Hextech_Linear_Vertical.dds"
                 }
             }
@@ -12135,10 +12135,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -12184,7 +12184,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Shared/Particles/Hextech_Linear_Vertical.dds"
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -12203,10 +12203,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {}
@@ -12222,7 +12222,7 @@ entries: map[hash,embed] = {
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -4.5, 0 }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -12308,7 +12308,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 8
                 }
@@ -12433,7 +12433,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 7.82505798 }
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -12510,13 +12510,13 @@ entries: map[hash,embed] = {
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0.5 }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_GroundBurst.dds"
                     texDivMult: vec2 = { 4, 1 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
-                    0x22c3cf3e: embed = IntegratedValueVector2 {
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 2 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -12569,7 +12569,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -12621,7 +12621,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Shared/Particles/Hextech_Linear_Vertical.dds"
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -12641,7 +12641,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 7.82505798 }
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -12742,10 +12742,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -8.46441269, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -12796,7 +12796,7 @@ entries: map[hash,embed] = {
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0.600000024 }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Gradient_Linear_Vertical04.dds"
                 }
             }
@@ -12815,10 +12815,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                0x4ffce322: pointer = 0xb13097f0 {
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveBeam {
@@ -12868,7 +12868,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Shared/Particles/Hextech_Linear_Vertical.dds"
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -12902,7 +12902,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 25, 0 }
                 }
                 blendMode: u8 = 4
@@ -12952,7 +12952,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 25, 0 }
                 }
                 blendMode: u8 = 4
@@ -13114,11 +13114,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 20
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 25, 0 }
                 }
                 particleColorTexture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_SparksRandomRamp.dds"
@@ -13338,11 +13338,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 20
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 25, 0 }
                 }
                 particleColorTexture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_SparksRandomRamp.dds"
@@ -13506,10 +13506,10 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -50, 0 }
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -13691,7 +13691,7 @@ entries: map[hash,embed] = {
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0.5 }
                 }
-                textureMult: pointer = 0xb097c1bd {
+                textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/SRU_Dragon_Hextech_Base_Beam_Mask.dds"
                 }
             }
@@ -13740,7 +13740,7 @@ entries: map[hash,embed] = {
                     0.600000024
                 }
                 emitterName: string = "W_Cast_Electricity"
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 40
                 }
@@ -13833,7 +13833,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook_3x3.dds"
+                texture: string = "ASSETS/Characters/sru_dragon_hextech/Skins/Base/Particles/sru_dragon_hextech_Base_BA_Lightning_flipbook.dds"
                 frameRate: f32 = 28
                 numFrames: u16 = 9
                 startFrame: u16 = 1
@@ -13863,7 +13863,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
+                SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 1, 1, 1 }
                 }
                 blendMode: u8 = 4
@@ -13967,7 +13967,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/LeeSin/Skins/Skin31/Particles/LeeSin_Aura_Self.dds"
+                texture: string = "ASSETS/Items/3002/Particles/Lux_distort.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.150000006
@@ -14077,7 +14077,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x563d4a22: embed = ValueVector3 {
+                EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {}
@@ -14258,7 +14258,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 0.5
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 8
                 }
@@ -14884,7 +14884,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0x3dbe415d {
+                SpawnShape: pointer = VfxShapeSphere {
                     flags: u8 = 1
                     radius: f32 = 3
                 }
@@ -15012,20 +15012,20 @@ entries: map[hash,embed] = {
     }
     "Characters/sru_dragon_hextech/Skins/Skin0/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-            0xd757c29c = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_BA_Empowered_State"
-            0x62e86c1f = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/SRU_Dragon_Hextech_Base_BA_Beam"
-            0xa9b20264 = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/SRU_Dragon_Hextech_Base_BA_Empowered_Beam"
+            "sru_dragon_hextech_BA_Empowered_State" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_BA_Empowered_State"
+            "SRU_Dragon_Hextech_BA_Beam" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/SRU_Dragon_Hextech_Base_BA_Beam"
+            "SRU_Dragon_Hextech_BA_Empowered_Beam" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/SRU_Dragon_Hextech_Base_BA_Empowered_Beam"
             "SRU_Dragon_Hextech_BA_Tar" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/SRU_Dragon_Hextech_BA_Tar"
             "SRU_Dragon_Hextech_BA_Empowered_Tar" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/SRU_Dragon_Hextech_BA_Empowered_Tar"
-            0x01b978ac = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_BA_Charge"
-            0x4e22682b = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_WingsFX"
-            0x0bb13012 = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_IdleAgro_HeadShaking"
-            0xe9a65147 = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_IdleAgro_BodyBurst"
-            0x989eba3e = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_BodyShine"
-            0x6d16d45b = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_BA_Empowered_Charge"
-            0x757dab42 = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_WingsFX_02"
-            0x0727a935 = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_GemShine"
-            0x5c42ecbc = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Death"
+            "sru_dragon_hextech_BA_Charge" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_BA_Charge"
+            "sru_dragon_hextech_Emote_WingsFX" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_WingsFX"
+            "sru_dragon_hextech_Emote_IdleAgro_HeadShaking" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_IdleAgro_HeadShaking"
+            "sru_dragon_hextech_Emote_IdleAgro_BodyBurst" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_IdleAgro_BodyBurst"
+            "sru_dragon_hextech_Emote_BodyShine" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_BodyShine"
+            "sru_dragon_hextech_BA_Empowered_Charge" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_BA_Empowered_Charge"
+            "sru_dragon_hextech_Emote_WingsFX_02" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_WingsFX_02"
+            "sru_dragon_hextech_Emote_GemShine" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Emote_GemShine"
+            "sru_dragon_hextech_Death" = "Characters/sru_dragon_hextech/Skins/Skin0/Particles/sru_dragon_hextech_Base_Death"
         }
     }
 }

@@ -2,12 +2,13 @@
 type: string = "PROP"
 version: u32 = 3
 linked: list[string] = {
-    "DATA/Turret_Skins_Skin10_Skins_Skin11_Skins_Skin14_Skins_Skin15_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin34_Skins_Skin35_Skins_Skin6_Skins_Skin7.bin"
     "DATA/Characters/Turret/Turret.bin"
-    "DATA/Turret_Skins_Skin10_Skins_Skin11_Skins_Skin14_Skins_Skin15_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin3_Skins_Skin34_Skins_Skin35_Skins_Skin6_Skins_Skin7.bin"
-    "DATA/Characters/Turret/Animations/Skin1.bin"
-    "DATA/Turret_Skins_Skin11_Skins_Skin14_Skins_Skin15_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin21_Skins_Skin23_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin34_Skins_Skin35_Skins_Skin6_Skins_Skin7.bin"
-    "DATA/Turret_Skins_Skin11_Skins_Skin14_Skins_Skin15_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin3_Skins_Skin34_Skins_Skin35_Skins_Skin6_Skins_Skin7.bin"
+    "DATA/Turret_Skins_Skin1_Skins_Skin11_Skins_Skin14_Skins_Skin15_Skins_Skin18_Skins_Skin19_Skins_Skin21_Skins_Skin23_Skins_Skin26_Skins_Skin27_Skins_Skin29_Skins_Skin3_Skins_Skin31_Skins_Skin35_Skins_Skin7.bin"
+    "DATA/Characters/Turret/Animations/Skin2.bin"
+    "DATA/Turret_Skins_Skin1_Skins_Skin11_Skins_Skin14_Skins_Skin15_Skins_Skin18_Skins_Skin19_Skins_Skin21_Skins_Skin23_Skins_Skin26_Skins_Skin27_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin35_Skins_Skin7.bin"
+    "DATA/Turret_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin38_Skins_Skin39_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin8_Skins_Skin9.bin"
+    "DATA/Turret_Skins_Skin1_Skins_Skin11_Skins_Skin14_Skins_Skin15_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin26_Skins_Skin27_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin35_Skins_Skin7.bin"
+    "DATA/Turret_Skins_Skin1_Skins_Skin11_Skins_Skin14_Skins_Skin15_Skins_Skin18_Skins_Skin19_Skins_Skin21_Skins_Skin23_Skins_Skin26_Skins_Skin27_Skins_Skin29_Skins_Skin3_Skins_Skin35_Skins_Skin7.bin"
 }
 entries: map[hash,embed] = {
     "Characters/Turret/Skins/Skin3" = SkinCharacterDataProperties {
@@ -38,7 +39,7 @@ entries: map[hash,embed] = {
             "ASSETS/Characters/Turret/HUD/Turret_Red_Square.dds"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
-            unitHealthBarStyle: u8 = 7
+            unitHealthBarStyle: u8 = 8
         }
         mResourceResolver: link = "Characters/Turret/Skins/Skin3/Resources"
     }
@@ -47,7 +48,7 @@ entries: map[hash,embed] = {
             0xec90fddd = "Characters/Turret/Skins/Skin3/Particles/SRU_Chaos_Turret_BA"
             0xf118ff29 = "Characters/Turret/Skins/Skin3/Particles/SRU_Chaos_Turret_BA_Champ_01"
             0x9ef2bde5 = "Characters/Turret/Skins/Skin3/Particles/SRU_Chaos_Turret_BA_Tar"
-            0x127fbf81 = "Characters/Turret/Skins/Skin3/Particles/SRU_Choas_Turret_BA_Tar_Champ_01"
+            0x127fbf81 = "Characters/Turret/Skins/Skin3/Particles/SRU_Chaos_Turret_BA_Tar_Champ"
             0xb6e0e814 = "Characters/Turret/Skins/Skin3/Particles/SRU_Chaos_Turret_BA_LaserSight_beam"
             0x755c76df = "Characters/Turret/Skins/Skin3/Particles/SRU_Chaos_Turret_BA_Cas_Champ_01"
             0xb2694786 = "Characters/Turret/Skins/Skin3/Particles/SRU_Chaos_Turret_BA_Cas_Champ_02"
@@ -60,6 +61,7 @@ entries: map[hash,embed] = {
             0x246d001f = "Characters/Turret/Skins/Skin3/Particles/SRU_Chaos_Turret_BA_Champ_03"
             0x216cfb66 = "Characters/Turret/Skins/Skin3/Particles/SRU_Chaos_Turret_BA_Champ_04"
             0x3ba777fb = "Maps/Characters/Turret/Skins/SR/Particles/Chaos_Turret_Crystal"
+            0xb13328d6 = "Characters/Turret/Skins/Skin0/Particles/Turret_Skin40_BA__Explosion_AoE"
         }
     }
 }

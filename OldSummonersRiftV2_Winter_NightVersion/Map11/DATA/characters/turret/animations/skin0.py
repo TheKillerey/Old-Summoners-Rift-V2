@@ -7,78 +7,78 @@ entries: map[hash,embed] = {
         mCascadeBlendValue: f32 = 0
         mClipDataMap: map[hash,pointer] = {
             "Idle1" = AtomicClipData {
-                mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1.anm"
-                }
+                mFlags: u32 = 1
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     "ShowBase" = SubmeshVisibilityEventData {
+                        mName: hash = "ShowBase"
                         mShowSubmeshList: list[hash] = {
                             "SRUAP_OrderTurret1_Mat"
                         }
-                        mName: hash = "ShowBase"
                     }
                 }
-                mFlags: u32 = 1
-            }
-            "State3" = AtomicClipData {
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1.anm"
                 }
+            }
+            "State3" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     "HideBase" = SubmeshVisibilityEventData {
+                        mName: hash = "HideBase"
                         mHideSubmeshList: list[hash] = {
                             "SRUAP_OrderTurret1_Mat"
                         }
-                        mName: hash = "HideBase"
                     }
                     0xd87f9f9c = SubmeshVisibilityEventData {
+                        mName: hash = 0xd87f9f9c
                         mHideSubmeshList: list[hash] = {
                             "Stage1"
                         }
-                        mName: hash = 0xd87f9f9c
                     }
                     0x39efaf58 = SubmeshVisibilityEventData {
+                        mName: hash = 0x39efaf58
                         mShowSubmeshList: list[hash] = {
                             "Stage2"
                         }
-                        mName: hash = 0x39efaf58
                     }
+                }
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1.anm"
                 }
             }
             "Destroyed" = AtomicClipData {
-                mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1.anm"
-                }
+                mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     0xdb7fa455 = SubmeshVisibilityEventData {
+                        mName: hash = 0xdb7fa455
                         mHideSubmeshList: list[hash] = {
                             "Stage2"
                         }
-                        mName: hash = 0xdb7fa455
                     }
                     0xd87f9f9c = SubmeshVisibilityEventData {
+                        mName: hash = 0xd87f9f9c
                         mHideSubmeshList: list[hash] = {
                             "Stage1"
                         }
-                        mName: hash = 0xd87f9f9c
                     }
                     "HideBase" = SubmeshVisibilityEventData {
-                        mHideSubmeshList: list[hash] = {
-                            "SRUAP_OrderTurret1_Mat"
-                        }
                         mName: hash = "HideBase"
+                        mHideSubmeshList: list[hash] = {
+                            "Base"
+                        }
                     }
                     0x3aefb0eb = SubmeshVisibilityEventData {
+                        mName: hash = 0x3aefb0eb
                         mShowSubmeshList: list[hash] = {
                             "Stage3"
                         }
-                        mName: hash = 0x3aefb0eb
                     }
                 }
-                mFlags: u32 = 2
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1.anm"
+                }
             }
             0xaa006aba = ParallelClipData {
                 mClipNameList: list[hash] = {
@@ -86,12 +86,11 @@ entries: map[hash,embed] = {
                 }
             }
             0xcc2030a0 = AtomicClipData {
-                mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1_seq.anm"
-                }
+                mFlags: u32 = 8
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     "Break1" = ParticleEventData {
+                        mName: hash = "Break1"
                         mEffectKey: hash = "SRU_OrderTurret1_break1"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
@@ -100,52 +99,52 @@ entries: map[hash,embed] = {
                         }
                         mIsLoop: bool = false
                         mIsKillEvent: bool = false
-                        mName: hash = "Break1"
                     }
                     "HideBase" = SubmeshVisibilityEventData {
+                        mName: hash = "HideBase"
+                        mStartFrame: f32 = 1
                         mHideSubmeshList: list[hash] = {
                             "SRUAP_OrderTurret1_Mat"
                         }
-                        mName: hash = "HideBase"
-                        mStartFrame: f32 = 1
                     }
                     0x3cefb411 = SubmeshVisibilityEventData {
+                        mName: hash = 0x3cefb411
+                        mStartFrame: f32 = 1
                         mShowSubmeshList: list[hash] = {
                             "Stage1"
                         }
-                        mName: hash = 0x3cefb411
-                        mStartFrame: f32 = 1
                     }
                 }
-                mFlags: u32 = 8
-            }
-            "State2" = AtomicClipData {
-                mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1.anm"
-                }
-                mTrackDataName: hash = "Default"
-                mEventDataMap: map[hash,pointer] = {
-                    "HideBase" = SubmeshVisibilityEventData {
-                        mHideSubmeshList: list[hash] = {
-                            "SRUAP_OrderTurret1_Mat"
-                        }
-                        mName: hash = "HideBase"
-                    }
-                    0x3cefb411 = SubmeshVisibilityEventData {
-                        mShowSubmeshList: list[hash] = {
-                            "Stage1"
-                        }
-                        mName: hash = 0x3cefb411
-                    }
-                }
-            }
-            0xf5c65fef = AtomicClipData {
                 mAnimationResourceData: embed = AnimationResourceData {
                     mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1_seq.anm"
                 }
+            }
+            "State2" = AtomicClipData {
+                mTrackDataName: hash = "Default"
+                mEventDataMap: map[hash,pointer] = {
+                    "HideBase" = SubmeshVisibilityEventData {
+                        mName: hash = "HideBase"
+                        mHideSubmeshList: list[hash] = {
+                            "SRUAP_OrderTurret1_Mat"
+                        }
+                    }
+                    0x3cefb411 = SubmeshVisibilityEventData {
+                        mName: hash = 0x3cefb411
+                        mShowSubmeshList: list[hash] = {
+                            "Stage1"
+                        }
+                    }
+                }
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1.anm"
+                }
+            }
+            0xf5c65fef = AtomicClipData {
+                mFlags: u32 = 8
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     "Break2" = ParticleEventData {
+                        mName: hash = "Break2"
                         mEffectKey: hash = "SRU_OrderTurret1_break2"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
@@ -155,30 +154,30 @@ entries: map[hash,embed] = {
                         mIsLoop: bool = false
                         mIsKillEvent: bool = false
                         mIsDetachable: bool = true
-                        mName: hash = "Break2"
                     }
                     "HideBase" = SubmeshVisibilityEventData {
+                        mName: hash = "HideBase"
                         mHideSubmeshList: list[hash] = {
                             "SRUAP_OrderTurret1_Mat"
                         }
-                        mName: hash = "HideBase"
                     }
                     0x3cefb411 = SubmeshVisibilityEventData {
+                        mName: hash = 0x3cefb411
                         mShowSubmeshList: list[hash] = {
                             "Stage1"
                         }
-                        mName: hash = 0x3cefb411
                     }
                 }
-                mFlags: u32 = 8
-            }
-            0x5fe86160 = AtomicClipData {
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1.anm"
+                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1_seq.anm"
                 }
+            }
+            "Destroyed_seq" = AtomicClipData {
+                mFlags: u32 = 8
                 mTrackDataName: hash = "Default"
                 mEventDataMap: map[hash,pointer] = {
                     "Break3" = ParticleEventData {
+                        mName: hash = "Break3"
                         mEffectKey: hash = "SRU_OrderTurret1_break3"
                         mParticleEventDataPairList: list[embed] = {
                             ParticleEventDataPair {
@@ -187,49 +186,50 @@ entries: map[hash,embed] = {
                         }
                         mIsLoop: bool = false
                         mIsKillEvent: bool = false
-                        mName: hash = "Break3"
                     }
                     "HideBase" = SubmeshVisibilityEventData {
-                        mHideSubmeshList: list[hash] = {
-                            "SRUAP_OrderTurret1_Mat"
-                        }
                         mName: hash = "HideBase"
+                        mHideSubmeshList: list[hash] = {
+                            "Base"
+                        }
                     }
                     0xd87f9f9c = SubmeshVisibilityEventData {
+                        mName: hash = 0xd87f9f9c
                         mHideSubmeshList: list[hash] = {
                             "Stage1"
                         }
-                        mName: hash = 0xd87f9f9c
                     }
                     0x39efaf58 = SubmeshVisibilityEventData {
+                        mName: hash = 0x39efaf58
                         mShowSubmeshList: list[hash] = {
                             "Stage2"
                         }
-                        mName: hash = 0x39efaf58
                     }
                     0x3aefb0eb = SubmeshVisibilityEventData {
+                        mName: hash = 0x3aefb0eb
+                        mStartFrame: f32 = 40
                         mShowSubmeshList: list[hash] = {
                             "Stage3"
                         }
-                        mName: hash = 0x3aefb0eb
-                        mStartFrame: f32 = 40
                     }
                     0xdb7fa455 = SubmeshVisibilityEventData {
+                        mName: hash = 0xdb7fa455
+                        mStartFrame: f32 = 40
                         mHideSubmeshList: list[hash] = {
                             "Stage2"
                         }
-                        mName: hash = 0xdb7fa455
-                        mStartFrame: f32 = 40
                     }
                 }
-                mFlags: u32 = 8
+                mAnimationResourceData: embed = AnimationResourceData {
+                    mAnimationFilePath: string = "ASSETS/Characters/Turret/Skins/base/animations/SRUAP_OrderTurret1_idle1.anm"
+                }
             }
             0xa9522ec4 = SequencerClipData {
+                mFlags: u32 = 8
                 mClipNameList: list[hash] = {
                     0xf5c65fef
                     "State3"
                 }
-                mFlags: u32 = 8
             }
         }
         mTrackDataMap: map[hash,embed] = {

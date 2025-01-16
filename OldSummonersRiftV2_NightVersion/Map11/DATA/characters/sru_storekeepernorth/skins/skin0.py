@@ -26,7 +26,7 @@ entries: map[hash,embed] = {
             skeleton: string = "ASSETS/Characters/sru_storekeepernorth/skins/base/SRU_storeKeeperNorth.skl"
             simpleSkin: string = "ASSETS/Characters/sru_storekeepernorth/skins/base/SRU_storeKeeperNorth.skn"
             texture: string = "ASSETS/Characters/sru_storekeepernorth/skins/base/SRU_storeKeeperNorth_TX_CM.dds"
-            skinScale: f32 = 1.2
+            skinScale: f32 = 1.9
             selfIllumination: f32 = 0.699999988
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
         }
