@@ -6,7 +6,7 @@ Welcome to the **Old Summoners Rift V2** custom skin mod! This mod brings back t
 
 ## Patches
 
-### Loads for RIOT's PATCH 14.24 - China should also work including Practice Tool.
+### Loads for RIOT's PATCH 25.S1.3+ - China should also work including Practice Tool.
 Please check your csmanager if there are some other issues.
 If you have ingame crashes report it here or on my Discord.
 
