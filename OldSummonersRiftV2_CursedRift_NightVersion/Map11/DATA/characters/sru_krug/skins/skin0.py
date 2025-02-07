@@ -8,7 +8,6 @@ linked: list[string] = {
 entries: map[hash,embed] = {
     "Characters/SRU_Krug/Skins/Skin0" = SkinCharacterDataProperties {
         championSkinName: string = "SRU_Krug"
-        emoteLoadout: hash = 0xd3eee753
         skinAudioProperties: embed = skinAudioProperties {
             bankUnits: list2[embed] = {
                 BankUnit {
@@ -34,10 +33,10 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Stone"
         iconCircle: option[string] = {
-            "AncientKrug_Circle.dds"
+            "ASSETS/Characters/SRU_Krug/HUD/AncientKrug_Circle.tex"
         }
         iconSquare: option[string] = {
-            "AncientKrug_Square.dds"
+            "ASSETS/Characters/SRU_Krug/HUD/AncientKrug_Square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 5
@@ -48,6 +47,7 @@ entries: map[hash,embed] = {
         resourceMap: map[hash,link] = {
             "SRU_Krug_Spawn_Impact" = "Characters/SRU_Krug/Skins/Skin0/Particles/SRU_Krug_Spawn_Impact"
             "SRU_Krug_Spawn_Mis" = "Characters/SRU_Krug/Skins/Skin0/Particles/SRU_Krug_Spawn_Mis"
+            0x883bab5c = "Characters/SRU_KrugMini/Skins/Skin0/Particles/SRU_KrugMini_Spawn_Mis"
         }
     }
     "Characters/SRU_Krug/Skins/Skin0/Particles/SRU_Krug_Spawn_Mis" = VfxSystemDefinitionData {
@@ -64,9 +64,11 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "krugMesh"
-                keywordsExcluded: list[string] = {
-                    "SRU_Krug_BloodMoon"
-                    "SRU_KrugMini_BloodMoon"
+                Filtering: pointer = VfxEmitterFiltering {
+                    keywordsExcluded: list[string] = {
+                        "SRU_Krug_BloodMoon"
+                        "SRU_KrugMini_BloodMoon"
+                    }
                 }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -330,7 +332,7 @@ entries: map[hash,embed] = {
                     1.5
                 }
                 emitterName: string = "smoke"
-                shape: embed = VfxShape {
+                SpawnShape: pointer = VfxShapeLegacy {
                     emitRotationAngles: list[embed] = {
                         ValueFloat {
                             constantValue: f32 = 1
@@ -477,50 +479,9 @@ entries: map[hash,embed] = {
                     1.5
                 }
                 emitterName: string = "sparks"
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 20, 20, 20 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        -1
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        -1
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        -1
-                                        1
-                                    }
-                                }
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec3] = {
-                                { 20, 20, 20 }
-                            }
-                        }
-                    }
+                SpawnShape: pointer = VfxShapeBox {
+                    flags: u8 = 1
+                    Size: vec3 = { 20, 20, 20 }
                 }
                 blendMode: u8 = 4
                 color: embed = ValueColor {
@@ -588,7 +549,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/SRU_KrugMini/Skins/Base/Particles/SRU_Sigil_Motes_01.dds"
+                texture: string = "ASSETS/Characters/SRU_Krug/Skins/Base/Particles/SRU_Sigil_Motes_01.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -650,10 +611,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    birthTranslation: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 15, 0 }
-                    }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 0, 0 }
                     }
@@ -686,8 +647,8 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 15, 0 }
                 }
                 blendMode: u8 = 1
                 color: embed = ValueColor {
@@ -710,7 +671,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.800000012
                     erosionSliceWidth: f32 = 1.60000002
-                    erosionMapName: string = "ASSETS/Characters/SRU_Krug/Skins/Base/Particles/GlobalCamouflage_erosion_mult.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/GlobalCamouflage_erosion_mult.dds"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -920,13 +881,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 100, 0 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 100, 0 }
                 }
                 blendMode: u8 = 4
                 color: embed = ValueColor {
@@ -1015,13 +974,11 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_Mult1"
-                shape: embed = VfxShape {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 0, 100, 0 }
-                    }
-                }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 100, 0 }
                 }
                 blendMode: u8 = 4
                 color: embed = ValueColor {
@@ -1162,7 +1119,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                shape: embed = VfxShape {
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 100, 100, 100 }
                         dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -1234,9 +1194,6 @@ entries: map[hash,embed] = {
                     emitRotationAxes: list[vec3] = {
                         { 0, 1.00000012, 0 }
                     }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
                 }
                 blendMode: u8 = 1
                 color: embed = ValueColor {
@@ -1329,18 +1286,17 @@ entries: map[hash,embed] = {
     }
     "Characters/SRU_Krug/Skins/Skin0/Materials/SR_GoldenKrug" = StaticMaterialDef {
         name: string = "Characters/SRU_Krug/Skins/Skin0/Materials/SR_GoldenKrug"
-        defaultTechnique: string = "normal"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Diffuse_Texture"
-                textureName: string = "ASSETS/Characters/SRU_Krug/Skins/Base/SRU_Krug_Base_TX_CM.dds"
+                texturePath: string = "ASSETS/Characters/SRU_Krug/Skins/Base/SRU_Krug_Base_TX_CM.dds"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 samplerName: string = "Mask_Texture"
-                textureName: string = "ASSETS/Characters/SRU_Krug/Skins/Base/SRU_Krug_Base_TX_Mask.dds"
+                texturePath: string = "ASSETS/Characters/SRU_Krug/Skins/Base/SRU_Krug_Base_TX_Mask.dds"
             }
         }
         paramValues: list2[embed] = {
