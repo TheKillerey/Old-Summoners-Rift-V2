@@ -6,6 +6,11 @@ Welcome to the **Old Summoners Rift V2** custom skin mod! This mod brings back t
 
 ## Patches
 
+### 15.4
+The mod is currently not functioning for version 15.4 due to an unresolved issue. At the moment, we are unable to fix it because the root cause remains unclear. It appears to be related to the FPS problems we encountered in previous patches. Additionally, if you download the current version of the mod, you will experience texture issues. I have already updated the mod (fixed the texture issue), but due to the ongoing memory leak problem, I need to wait until I can find a solution.
+![image](https://github.com/user-attachments/assets/ca036418-320f-4c88-99b7-9244070e9b64)
+
+
 ### Loads for RIOT's PATCH 25.S1.3+ - China should also work including Practice Tool.
 Please check your csmanager if there are some other issues.
 If you have ingame crashes report it here or on my Discord.
