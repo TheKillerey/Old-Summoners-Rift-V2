@@ -1044,14 +1044,14 @@ entries: map[hash,embed] = {
         name: string = "Characters/SRU_KrugMiniMini/Skins/Skin0/Materials/SR_GoldenKrug"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                samplerName: string = "Diffuse_Texture"
+                textureName: string = "Diffuse_Texture"
                 texturePath: string = "ASSETS/Characters/SRU_Krug/Skins/Base/SRU_KrugMini_base_TX_CM.dds"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                samplerName: string = "Mask_Texture"
+                textureName: string = "Mask_Texture"
                 texturePath: string = "ASSETS/Shared/Materials/black.dds"
             }
         }
