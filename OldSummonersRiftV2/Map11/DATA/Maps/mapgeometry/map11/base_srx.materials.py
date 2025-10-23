@@ -184235,7 +184235,7 @@ entries: map[hash,embed] = {
     }
     0x0395a48a = MapPlaceableContainer {
         items: map[hash,pointer] = {
-            0xdf09baf6 = 0x3c2bf0c0 {
+            0xdf09baf6 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.721, 0, 0.6929, 0
                     0, 1, 0, 0
@@ -184250,7 +184250,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Murkwolf/Skins/Skin0"
                 }
             }
-            0x53e1e0cd = 0x3c2bf0c0 {
+            0x53e1e0cd = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.6576, 0, 0.7534, 0
                     0, 1, 0, 0
@@ -184264,7 +184264,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_MurkwolfMini/Skins/Skin0"
                 }
             }
-            0x5f9b854b = 0x3c2bf0c0 {
+            0x5f9b854b = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.8042, 0, 0.5944, 0
                     0, 1, 0, 0
@@ -184279,7 +184279,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_MurkwolfMini/Skins/Skin0"
                 }
             }
-            0x8e4dbd20 = 0x42239bf8 {
+            0x8e4dbd20 = 0xd178749c {
                 transform: mtx44 = {
                     -0.2149, 0.5699, -0.7931, 0
                     -0.3495, -0.8032, -0.4824, 0
@@ -184298,7 +184298,7 @@ entries: map[hash,embed] = {
                     MinimapIconOffset: vec3 = { 0, 0, 40 }
                 }
             }
-            0xce08c525 = 0x3c2bf0c0 {
+            0xce08c525 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.3254, 0, 0.9456, 0
                     0, 1, 0, 0
@@ -184313,7 +184313,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Blue/Skins/Skin4"
                 }
             }
-            0x78373878 = 0x42239bf8 {
+            0x78373878 = 0xd178749c {
                 transform: mtx44 = {
                     0.9997, 0.0174, -0.0175, 0
                     -0.0171, 0.9997, 0.0174, 0
@@ -184333,7 +184333,7 @@ entries: map[hash,embed] = {
                     MinimapIconOffset: vec3 = { -80, 0, 40 }
                 }
             }
-            0x163e525e = 0x42239bf8 {
+            0x163e525e = 0xd178749c {
                 transform: mtx44 = {
                     0.4471, 0.0078, 0.8944, 0
                     -0.0331, 0.9994, 0.0078, 0
@@ -184351,7 +184351,7 @@ entries: map[hash,embed] = {
                     CampLevel: u16 = 0
                 }
             }
-            0x37430c88 = 0x3c2bf0c0 {
+            0x37430c88 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.2178, 0, -0.976, 0
                     0, 1, 0, 0
@@ -184366,7 +184366,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Gromp/Skins/Skin0"
                 }
             }
-            0xfc23c489 = 0x3c2bf0c0 {
+            0xfc23c489 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.4683, 0, -0.8836, 0
                     0, 1, 0, 0
@@ -184381,7 +184381,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Blue/Skins/Skin4"
                 }
             }
-            0xb0528add = 0x42239bf8 {
+            0xb0528add = 0xd178749c {
                 transform: mtx44 = {
                     -0.7071, 0, 0.7071, 0
                     0, 1, 0, 0
@@ -184401,7 +184401,7 @@ entries: map[hash,embed] = {
                     MinimapIconOffset: vec3 = { 20, 0, -100 }
                 }
             }
-            0x500d52ca = 0x3c2bf0c0 {
+            0x500d52ca = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.774, -0.05, 0.6312, 0
                     0.0027, 0.9966, 0.0822, 0
@@ -184416,7 +184416,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Red/Skins/Skin3"
                 }
             }
-            0x5f8d7bea = 0x42239bf8 {
+            0x5f8d7bea = 0xd178749c {
                 transform: mtx44 = {
                     -0.7071, 0, -0.7071, 0
                     0, 1, 0, 0
@@ -184436,7 +184436,7 @@ entries: map[hash,embed] = {
                     MinimapIconOffset: vec3 = { 50, 0, -90 }
                 }
             }
-            0xc520876f = 0x42239bf8 {
+            0xc520876f = 0xd178749c {
                 transform: mtx44 = {
                     0.707, 0.0123, 0.7071, 0
                     -0.0298, 0.9995, 0.0123, 0
@@ -184456,7 +184456,7 @@ entries: map[hash,embed] = {
                     MinimapIconOffset: vec3 = { -20, 0, 0 }
                 }
             }
-            0xbc66f813 = 0x3c2bf0c0 {
+            0xbc66f813 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.7309, 0, -0.6824, 0
                     0, 1, 0, 0
@@ -184471,7 +184471,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Red/Skins/Skin3"
                 }
             }
-            0x85d17e2b = 0x3c2bf0c0 {
+            0x85d17e2b = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.522, 0, 0.8529, 0
                     0, 1, 0, 0
@@ -184486,7 +184486,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Gromp/Skins/Skin0"
                 }
             }
-            0x789acc87 = 0x42239bf8 {
+            0x789acc87 = 0xd178749c {
                 transform: mtx44 = {
                     -0.4472, 0, -0.8944, 0
                     0, 1, 0, 0
@@ -184503,7 +184503,7 @@ entries: map[hash,embed] = {
                     MinimapIcon: string = "LesserCamp"
                 }
             }
-            0x48ca738e = 0x3c2bf0c0 {
+            0x48ca738e = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.714, 0, -0.7001, 0
                     0, 1, 0, 0
@@ -184518,7 +184518,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Murkwolf/Skins/Skin0"
                 }
             }
-            0xf34aac23 = 0x3c2bf0c0 {
+            0xf34aac23 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.6878, 0, -0.7259, 0
                     0, 1, 0, 0
@@ -184532,7 +184532,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_MurkwolfMini/Skins/Skin0"
                 }
             }
-            0x41e00209 = 0x3c2bf0c0 {
+            0x41e00209 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.6106, 0, -0.792, 0
                     0, 1, 0, 0
@@ -184547,7 +184547,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_MurkwolfMini/Skins/Skin0"
                 }
             }
-            0xf15c8aff = 0x42239bf8 {
+            0xf15c8aff = 0xd178749c {
                 transform: mtx44 = {
                     0.9997, 0.0174, -0.0175, 0
                     -0.0171, 0.9997, 0.0174, 0
@@ -184566,7 +184566,7 @@ entries: map[hash,embed] = {
                     MinimapIconOffset: vec3 = { 20, 0, 0 }
                 }
             }
-            0xc2b3ed25 = 0x3c2bf0c0 {
+            0xc2b3ed25 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.0625, 0.0053, -0.998, 0
                     -0.004, 1, 0.0056, 0
@@ -184581,7 +184581,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Razorbeak/Skins/Skin0"
                 }
             }
-            0xf202b3b2 = 0x3c2bf0c0 {
+            0xf202b3b2 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.199, 0.7651, 0.6123, 0
                     -0.2062, 0.5782, -0.7894, 0
@@ -184596,7 +184596,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_RazorbeakMini/Skins/Skin0"
                 }
             }
-            0x5bfe3b26 = 0x3c2bf0c0 {
+            0x5bfe3b26 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.9744, 0, -0.2249, 0
                     0, 1, 0, 0
@@ -184611,7 +184611,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_RazorbeakMini/Skins/Skin0"
                 }
             }
-            0x1eb05f1d = 0x3c2bf0c0 {
+            0x1eb05f1d = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.9067, 0.1135, -0.4062, 0
                     0.1608, 0.9834, -0.0843, 0
@@ -184626,7 +184626,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_RazorbeakMini/Skins/Skin0"
                 }
             }
-            0x4f5ac5ca = 0x3c2bf0c0 {
+            0x4f5ac5ca = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.9987, -0.0001, 0.0515, 0
                     -0.0001, 1, -0.0001, 0
@@ -184641,7 +184641,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_RazorbeakMini/Skins/Skin0"
                 }
             }
-            0x56f19fd0 = 0x3c2bf0c0 {
+            0x56f19fd0 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.5686, -0.0726, -0.8194, 0
                     -0.1602, 0.9868, 0.0237, 0
@@ -184656,7 +184656,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_RazorbeakMini/Skins/Skin0"
                 }
             }
-            0x9d0e7aac = 0x42239bf8 {
+            0x9d0e7aac = 0xd178749c {
                 transform: mtx44 = {
                     0.9997, 0.0174, -0.0175, 0
                     -0.0171, 0.9997, 0.0174, 0
@@ -184675,7 +184675,7 @@ entries: map[hash,embed] = {
                     MinimapIconOffset: vec3 = { 50, 0, -40 }
                 }
             }
-            0x520033ef = 0x3c2bf0c0 {
+            0x520033ef = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.6862, 0, 0.7274, 0
                     0, 1, 0, 0
@@ -184690,7 +184690,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Razorbeak/Skins/Skin0"
                 }
             }
-            0x914a99a0 = 0x3c2bf0c0 {
+            0x914a99a0 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.1896, 0, -0.9819, 0
                     0, 1, 0, 0
@@ -184705,7 +184705,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_RazorbeakMini/Skins/Skin0"
                 }
             }
-            0xb7dd47f5 = 0x3c2bf0c0 {
+            0xb7dd47f5 = 0xad65d8c4 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -184720,7 +184720,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_RazorbeakMini/Skins/Skin0"
                 }
             }
-            0x401f71cb = 0x3c2bf0c0 {
+            0x401f71cb = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.5919, 0, -0.806, 0
                     0, 1, 0, 0
@@ -184735,7 +184735,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_RazorbeakMini/Skins/Skin0"
                 }
             }
-            0x81c33d31 = 0x3c2bf0c0 {
+            0x81c33d31 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.8262, 0, 0.5634, 0
                     0, 1, 0, 0
@@ -184750,7 +184750,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_RazorbeakMini/Skins/Skin0"
                 }
             }
-            0x89261ede = 0x3c2bf0c0 {
+            0x89261ede = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.7259, 0, 0.6878, 0
                     0, 1, 0, 0
@@ -184765,7 +184765,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_RazorbeakMini/Skins/Skin0"
                 }
             }
-            0x9fc8e52d = 0x42239bf8 {
+            0x9fc8e52d = 0xd178749c {
                 transform: mtx44 = {
                     0.9997, 0.0174, -0.0175, 0
                     -0.0171, 0.9997, 0.0174, 0
@@ -184784,7 +184784,7 @@ entries: map[hash,embed] = {
                     MinimapIconOffset: vec3 = { -50, 0, 0 }
                 }
             }
-            0xc7036db2 = 0x3c2bf0c0 {
+            0xc7036db2 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -1, 0, 0, 0
                     0, 1, 0, 0
@@ -184799,7 +184799,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Krug/Skins/Skin0"
                 }
             }
-            0xd2f20a0a = 0x3c2bf0c0 {
+            0xd2f20a0a = 0xad65d8c4 {
                 transform: mtx44 = {
                     -1, 0, 0, 0
                     0, 1, 0, 0
@@ -184814,7 +184814,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_KrugMini/Skins/Skin0"
                 }
             }
-            0x44b899d1 = 0x42239bf8 {
+            0x44b899d1 = 0xd178749c {
                 transform: mtx44 = {
                     0.9997, 0.0174, -0.0175, 0
                     -0.0171, 0.9997, 0.0174, 0
@@ -184832,7 +184832,7 @@ entries: map[hash,embed] = {
                     CampLevel: u16 = 0
                 }
             }
-            0x55735079 = 0x3c2bf0c0 {
+            0x55735079 = 0xad65d8c4 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -184847,7 +184847,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Krug/Skins/Skin0"
                 }
             }
-            0x2f78c971 = 0x3c2bf0c0 {
+            0x2f78c971 = 0xad65d8c4 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -184862,7 +184862,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_KrugMini/Skins/Skin0"
                 }
             }
-            0x4ca5f2bd = 0x42239bf8 {
+            0x4ca5f2bd = 0xd178749c {
                 transform: mtx44 = {
                     0.9997, 0.0174, -0.0175, 0
                     -0.0171, 0.9997, 0.0174, 0
@@ -184881,7 +184881,7 @@ entries: map[hash,embed] = {
                     MinimapIconOffset: vec3 = { 40, 0, 40 }
                 }
             }
-            0x162b4a68 = 0x3c2bf0c0 {
+            0x162b4a68 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.9651, 0.0174, -0.2614, 0
                     0.0213, 0.9997, -0.012, 0
@@ -184896,7 +184896,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Horde/Skins/Skin0"
                 }
             }
-            0x915afa1e = 0x3c2bf0c0 {
+            0x915afa1e = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.3087, 0.0174, 0.951, 0
                     -0.0109, 0.9997, -0.0219, 0
@@ -184911,7 +184911,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Horde/Skins/Skin0"
                 }
             }
-            0x44157dab = 0x3c2bf0c0 {
+            0x44157dab = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.762, 0.0174, -0.6473, 0
                     -0.0022, 0.9997, 0.0244, 0
@@ -184926,7 +184926,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Horde/Skins/Skin0"
                 }
             }
-            0x793dd0a6 = 0x42239bf8 {
+            0x793dd0a6 = 0xd178749c {
                 transform: mtx44 = {
                     0.9997, 0.0174, -0.0175, 0
                     -0.0171, 0.9997, 0.0174, 0
@@ -184949,7 +184949,7 @@ entries: map[hash,embed] = {
                     0x7d27af7f: bool = true
                 }
             }
-            0x41c28a15 = 0x42239bf8 {
+            0x41c28a15 = 0xd178749c {
                 transform: mtx44 = {
                     0.9997, 0.0174, -0.0175, 0
                     -0.0171, 0.9997, 0.0174, 0
@@ -184971,7 +184971,7 @@ entries: map[hash,embed] = {
                     RevealEvent: u16 = 2
                 }
             }
-            0x68e88156 = 0x3c2bf0c0 {
+            0x68e88156 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.7988, 0, 0.6016, 0
                     0, 1, 0, 0
@@ -184986,7 +184986,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_RiftHerald/Skins/Skin0"
                 }
             }
-            0x2443a268 = 0x42239bf8 {
+            0x2443a268 = 0xd178749c {
                 transform: mtx44 = {
                     0.9997, 0.0174, -0.0175, 0
                     -0.0171, 0.9997, 0.0174, 0
@@ -185008,7 +185008,7 @@ entries: map[hash,embed] = {
                     0x7d27af7f: bool = true
                 }
             }
-            0x883858bc = 0x3c2bf0c0 {
+            0x883858bc = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.8514, 0.0174, 0.5242, 0
                     0.0059, 0.9997, -0.0237, 0
@@ -185024,7 +185024,7 @@ entries: map[hash,embed] = {
                     0x397fe037: bool = true
                 }
             }
-            0x6427825e = 0xf4a21c35 {
+            0x6427825e = 0xeb997689 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -185034,7 +185034,7 @@ entries: map[hash,embed] = {
                 name: hash = 0x6ccfbce7
                 definition: embed = 0xfcb92181 {}
             }
-            0xaeea5f52 = 0x3c2bf0c0 {
+            0xaeea5f52 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.7071, 0, 0.7071, 0
                     0, 1, 0, 0
@@ -185050,7 +185050,7 @@ entries: map[hash,embed] = {
                     0xde46f1d8: string = "RiverCrab.lua"
                 }
             }
-            0x75cd6c60 = 0x42239bf8 {
+            0x75cd6c60 = 0xd178749c {
                 transform: mtx44 = {
                     -0.7071, 0, 0.7071, 0
                     0, 1, 0, 0
@@ -185071,7 +185071,7 @@ entries: map[hash,embed] = {
                     0x7d27af7f: bool = true
                 }
             }
-            0x006ae501 = 0x42239bf8 {
+            0x006ae501 = 0xd178749c {
                 transform: mtx44 = {
                     0.7071, 0, -0.7071, 0
                     0, 1, 0, 0
@@ -185092,7 +185092,7 @@ entries: map[hash,embed] = {
                     0x7d27af7f: bool = true
                 }
             }
-            0xae255984 = 0x3c2bf0c0 {
+            0xae255984 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.7071, 0, -0.7071, 0
                     0, 1, 0, 0
@@ -185108,7 +185108,7 @@ entries: map[hash,embed] = {
                     0xde46f1d8: string = "RiverCrab.lua"
                 }
             }
-            0x437fcb53 = 0xf4a21c35 {
+            0x437fcb53 = 0xeb997689 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -185124,7 +185124,7 @@ entries: map[hash,embed] = {
     }
     0x0cd06aa5 = MapPlaceableContainer {
         items: map[hash,pointer] = {
-            0xebfc9842 = 0x3c2bf0c0 {
+            0xebfc9842 = 0xad65d8c4 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -185140,7 +185140,7 @@ entries: map[hash,embed] = {
                     0xf1d3a034: bool = true
                 }
             }
-            0xffd5e86d = 0x42239bf8 {
+            0xffd5e86d = 0xd178749c {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 0.9998, 0.0175, 0
@@ -185177,7 +185177,7 @@ entries: map[hash,embed] = {
                 }
                 name: string = "Atakhan_Spawn2"
             }
-            0x85ca4de4 = 0x3c2bf0c0 {
+            0x85ca4de4 = 0xad65d8c4 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -185327,7 +185327,7 @@ entries: map[hash,embed] = {
             }
             0x7c2ad47f = null
             0x5174f366 = null
-            0x59059b3b = 0x3c2bf0c0 {
+            0x59059b3b = 0xad65d8c4 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -191507,7 +191507,7 @@ entries: map[hash,embed] = {
     }
     0x320a05d8 = MapPlaceableContainer {
         items: map[hash,pointer] = {
-            0x2f34a233 = 0x3c2bf0c0 {
+            0x2f34a233 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9981, 0, -0.062, 0
                     0, 1, 0, 0
@@ -191522,7 +191522,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/sru_dragon_elder/Skins/Skin0"
                 }
             }
-            0x46b3de7c = 0x3c2bf0c0 {
+            0x46b3de7c = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9981, 0, -0.062, 0
                     0, 1, 0, 0
@@ -191537,7 +191537,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/sru_dragon_earth/Skins/Skin0"
                 }
             }
-            0x072e2211 = 0x3c2bf0c0 {
+            0x072e2211 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9981, 0, -0.062, 0
                     0, 1, 0, 0
@@ -191552,7 +191552,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/sru_dragon_chemtech/Skins/Skin0"
                 }
             }
-            0x0a5fd328 = 0x3c2bf0c0 {
+            0x0a5fd328 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9981, 0, -0.062, 0
                     0, 1, 0, 0
@@ -191567,7 +191567,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/sru_dragon_water/Skins/Skin0"
                 }
             }
-            0x2f7f0e7d = 0x3c2bf0c0 {
+            0x2f7f0e7d = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9981, 0, -0.062, 0
                     0, 1, 0, 0
@@ -191582,7 +191582,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/sru_dragon_air/Skins/Skin0"
                 }
             }
-            0xae282425 = 0x3c2bf0c0 {
+            0xae282425 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9981, 0, -0.062, 0
                     0, 1, 0, 0
@@ -191597,7 +191597,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/SRU_Dragon/Skins/Skin0"
                 }
             }
-            0x16580f57 = 0x3c2bf0c0 {
+            0x16580f57 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9981, 0, -0.062, 0
                     0, 1, 0, 0
@@ -191612,7 +191612,7 @@ entries: map[hash,embed] = {
                     Skin: string = "Characters/sru_dragon_fire/Skins/Skin0"
                 }
             }
-            0x4a7f091d = 0x42239bf8 {
+            0x4a7f091d = 0xd178749c {
                 transform: mtx44 = {
                     0.7152, 0.0125, -0.6988, 0
                     -0.0053, 0.9999, 0.0125, 0
@@ -191634,7 +191634,7 @@ entries: map[hash,embed] = {
                     MinimapIconOffset: vec3 = { 150, 0, 50 }
                 }
             }
-            0xe8e5ef22 = 0x3c2bf0c0 {
+            0xe8e5ef22 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9981, 0, -0.062, 0
                     0, 1, 0, 0
@@ -192998,7 +192998,7 @@ entries: map[hash,embed] = {
                 }
                 name: string = "OrderShopAreaLimits"
             }
-            0x9f77d47f = 0x111a9fcc {
+            0x9f77d47f = 0x25e3f5d0 {
                 transform: mtx44 = {
                     -0.7071, 0, 0.7071, 0
                     0, 1, 0, 0
@@ -193041,7 +193041,7 @@ entries: map[hash,embed] = {
                 }
                 name: string = "OrderShopHitboxLimits"
             }
-            0x1e1e8b6b = 0x111a9fcc {
+            0x1e1e8b6b = 0x25e3f5d0 {
                 transform: mtx44 = {
                     -1.3515, -0, -0.8564, 0
                     -0, 1.6, -0, 0
@@ -193087,7 +193087,7 @@ entries: map[hash,embed] = {
     }
     0x78a2c625 = MapPlaceableContainer {
         items: map[hash,pointer] = {
-            0xdaec472e = 0x3c2bf0c0 {
+            0xdaec472e = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.5, 0, 0, 0
                     0, 0.5, 0, 0
@@ -193108,7 +193108,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0x7cfd4666 = 0x3c2bf0c0 {
+            0x7cfd4666 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.8869, 0, 0.0745, 0
                     0, 0.89, 0, 0
@@ -193128,7 +193128,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0xd628bfb5 = 0x3c2bf0c0 {
+            0xd628bfb5 = 0xad65d8c4 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -193149,7 +193149,7 @@ entries: map[hash,embed] = {
                     type: u16 = 2
                 }
             }
-            0xe510624b = 0x3c2bf0c0 {
+            0xe510624b = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.7071, 0, -0.7071, 0
                     0, 1, 0, 0
@@ -193169,7 +193169,7 @@ entries: map[hash,embed] = {
                     type: u16 = 2
                 }
             }
-            0x64394ff1 = 0x3c2bf0c0 {
+            0x64394ff1 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.866, 0, -0.5, 0
                     0, 1, 0, 0
@@ -193189,7 +193189,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0x4b2618b0 = 0x3c2bf0c0 {
+            0x4b2618b0 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.5, 0, -0.866, 0
                     0, 1, 0, 0
@@ -193209,7 +193209,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0x4240b51e = 0x3c2bf0c0 {
+            0x4240b51e = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.8572, 0, 0.515, 0
                     0, 1, 0, 0
@@ -193230,7 +193230,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0xd4ac214d = 0x3c2bf0c0 {
+            0xd4ac214d = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.4848, 0, 0.8746, 0
                     0, 1, 0, 0
@@ -193331,7 +193331,7 @@ entries: map[hash,embed] = {
                     { 8856, 0, 8005 }
                 }
             }
-            0x1b7e6510 = 0x3c2bf0c0 {
+            0x1b7e6510 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.0872, 0, -0.9962, 0
                     0, 1, 0, 0
@@ -193351,7 +193351,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0x29a3cb57 = 0x3c2bf0c0 {
+            0x29a3cb57 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.7071, 0, -0.7071, 0
                     0, 1, 0, 0
@@ -193371,7 +193371,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0xa76eacd1 = 0x3c2bf0c0 {
+            0xa76eacd1 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9986, 0, 0.0523, 0
                     0, 1, 0, 0
@@ -193391,7 +193391,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0xd6c0c2df = 0x07ad3dda {
+            0xd6c0c2df = 0x1f1f50f2 {
                 transform: mtx44 = {
                     1.2, 0, 0, 0
                     0, 1.2, 0, 0
@@ -193404,7 +193404,7 @@ entries: map[hash,embed] = {
                     system: link = "Maps/Particles/SR/SRUAP_Order_Inhibitor_runeTimer_mid"
                 }
             }
-            0x418bd13c = 0x3c2bf0c0 {
+            0x418bd13c = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.7108, 0, 0.7034, 0
                     0, 1, 0, 0
@@ -193424,7 +193424,7 @@ entries: map[hash,embed] = {
                     type: u16 = 1
                 }
             }
-            0x7d88dde9 = 0x3c2bf0c0 {
+            0x7d88dde9 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9925, 0, 0.1222, 0
                     0, 1, 0, 0
@@ -193444,7 +193444,7 @@ entries: map[hash,embed] = {
                     type: u16 = 1
                 }
             }
-            0x1771d10c = 0x3c2bf0c0 {
+            0x1771d10c = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.0189, 0, 0.9998, 0
                     0, 1, 0, 0
@@ -193464,7 +193464,7 @@ entries: map[hash,embed] = {
                     type: u16 = 1
                 }
             }
-            0x81cada22 = 0x3c2bf0c0 {
+            0x81cada22 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.0394, 0, -0.9992, 0
                     0, 1, 0, 0
@@ -193485,7 +193485,7 @@ entries: map[hash,embed] = {
                     type: u16 = 1
                 }
             }
-            0x14114f88 = 0x3c2bf0c0 {
+            0x14114f88 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.0175, 0, -0.9998, 0
                     0, 1, 0, 0
@@ -193505,7 +193505,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0x5f4d3dca = 0x3c2bf0c0 {
+            0x5f4d3dca = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.0889, 0, 0.996, 0
                     0, 1, 0, 0
@@ -193526,7 +193526,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0xbae1072f = 0x3c2bf0c0 {
+            0xbae1072f = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.0039, 0, -1, 0
                     0, 1, 0, 0
@@ -193546,7 +193546,7 @@ entries: map[hash,embed] = {
                     0xf1d3a034: bool = true
                 }
             }
-            0x1fe1bb7c = 0x3c2bf0c0 {
+            0x1fe1bb7c = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.7547, 0, -0.6561, 0
                     0, 1, 0, 0
@@ -193566,7 +193566,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0x5d6ffe62 = 0x3c2bf0c0 {
+            0x5d6ffe62 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.0544, 0, 0.9985, 0
                     0, 1, 0, 0
@@ -193587,7 +193587,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0x9f40533b = 0x3c2bf0c0 {
+            0x9f40533b = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.4226, 0, 0.9063, 0
                     0, 1, 0, 0
@@ -193608,7 +193608,7 @@ entries: map[hash,embed] = {
                     0xf1d3a034: bool = true
                 }
             }
-            0xa83450b6 = 0x3c2bf0c0 {
+            0xa83450b6 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.682, 0, -0.7314, 0
                     0, 1, 0, 0
@@ -193628,7 +193628,7 @@ entries: map[hash,embed] = {
                     0xf1d3a034: bool = true
                 }
             }
-            0x1c131a19 = 0x3c2bf0c0 {
+            0x1c131a19 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9962, 0, -0.0872, 0
                     0, 1, 0, 0
@@ -193648,7 +193648,7 @@ entries: map[hash,embed] = {
                     0xf1d3a034: bool = true
                 }
             }
-            0xdc97866f = 0x3c2bf0c0 {
+            0xdc97866f = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9998, 0, -0.0175, 0
                     0, 1, 0, 0
@@ -193668,7 +193668,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0x46dfa372 = 0x3c2bf0c0 {
+            0x46dfa372 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.7071, 0, 0.7071, 0
                     0, 1, 0, 0
@@ -193689,7 +193689,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0xb50b555e = 0x3c2bf0c0 {
+            0xb50b555e = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.7071, 0, 0.7071, 0
                     0, 1, 0, 0
@@ -193710,7 +193710,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0x2eb2d42e = 0x3c2bf0c0 {
+            0x2eb2d42e = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.6961, 0, -0.7179, 0
                     0, 1, 0, 0
@@ -193731,7 +193731,7 @@ entries: map[hash,embed] = {
                     type: u16 = 1
                 }
             }
-            0x8ee09cd6 = 0x3c2bf0c0 {
+            0x8ee09cd6 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.6637, 0, 0.748, 0
                     0, 1, 0, 0
@@ -193752,7 +193752,7 @@ entries: map[hash,embed] = {
                     0xf1d3a034: bool = true
                 }
             }
-            0xeffa96e6 = 0xc71ee7fb {
+            0xeffa96e6 = 0xba138ae3 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -193771,7 +193771,7 @@ entries: map[hash,embed] = {
                     BarracksConfig: link = 0xe61e55a3
                 }
             }
-            0x52fe7e92 = 0xc71ee7fb {
+            0x52fe7e92 = 0xba138ae3 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -193790,7 +193790,7 @@ entries: map[hash,embed] = {
                     BarracksConfig: link = 0xe61e55a3
                 }
             }
-            0xdb2df388 = 0xc71ee7fb {
+            0xdb2df388 = 0xba138ae3 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -193809,7 +193809,7 @@ entries: map[hash,embed] = {
                     BarracksConfig: link = 0xe61e55a3
                 }
             }
-            0x1447a40c = 0xc71ee7fb {
+            0x1447a40c = 0xba138ae3 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -193828,7 +193828,7 @@ entries: map[hash,embed] = {
                     0xdb6ea1a7: hash = 0x6cdbe1fd
                 }
             }
-            0x2ee0de63 = 0xc71ee7fb {
+            0x2ee0de63 = 0xba138ae3 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -193847,7 +193847,7 @@ entries: map[hash,embed] = {
                     0xdb6ea1a7: hash = 0x1db4568d
                 }
             }
-            0x626220f8 = 0xc71ee7fb {
+            0x626220f8 = 0xba138ae3 {
                 transform: mtx44 = {
                     1, 0, 0, 0
                     0, 1, 0, 0
@@ -193866,7 +193866,7 @@ entries: map[hash,embed] = {
                     0xdb6ea1a7: hash = 0x800a520b
                 }
             }
-            0xad5e0a25 = 0x3c2bf0c0 {
+            0xad5e0a25 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -0.9997, 0, 0.0242, 0
                     0, 1, 0, 0
@@ -193887,7 +193887,7 @@ entries: map[hash,embed] = {
                     0xf1d3a034: bool = true
                 }
             }
-            0x8d9c90b8 = 0x3c2bf0c0 {
+            0x8d9c90b8 = 0xad65d8c4 {
                 transform: mtx44 = {
                     0.9998, 0, -0.0213, 0
                     0, 1, 0, 0
@@ -193908,7 +193908,7 @@ entries: map[hash,embed] = {
                     type: u16 = 1
                 }
             }
-            0x60658e10 = 0x3c2bf0c0 {
+            0x60658e10 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -1, 0, 0, 0
                     0, 1, 0, 0
@@ -193929,7 +193929,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0x750d8eb4 = 0x3c2bf0c0 {
+            0x750d8eb4 = 0xad65d8c4 {
                 transform: mtx44 = {
                     -1, 0, 0, 0
                     0, 1, 0, 0
@@ -193950,7 +193950,7 @@ entries: map[hash,embed] = {
                     type: u16 = 0
                 }
             }
-            0x9b860d6a = 0x07ad3dda {
+            0x9b860d6a = 0x1f1f50f2 {
                 transform: mtx44 = {
                     1.2, 0, 0, 0
                     0, 1.2, 0, 0
@@ -193963,7 +193963,7 @@ entries: map[hash,embed] = {
                     system: link = "Maps/Particles/SR/SRUAP_Order_Inhibitor_runeTimer_top"
                 }
             }
-            0xe524fdf0 = 0x07ad3dda {
+            0xe524fdf0 = 0x1f1f50f2 {
                 transform: mtx44 = {
                     1.2, 0, 0, 0
                     0, 1.2, 0, 0
@@ -193976,7 +193976,7 @@ entries: map[hash,embed] = {
                     system: link = "Maps/Particles/SR/SRUAP_Order_Inhibitor_runeTimer_bot"
                 }
             }
-            0x3e5203ad = 0x07ad3dda {
+            0x3e5203ad = 0x1f1f50f2 {
                 transform: mtx44 = {
                     1.2, 0, 0, 0
                     0, 1.2, 0, 0
@@ -193989,7 +193989,7 @@ entries: map[hash,embed] = {
                     system: link = "Maps/Particles/SR/SRUAP_Chaos_Inhibitor_runeTimer_mid"
                 }
             }
-            0x74e64542 = 0x07ad3dda {
+            0x74e64542 = 0x1f1f50f2 {
                 transform: mtx44 = {
                     1.2, 0, 0, 0
                     0, 1.2, 0, 0
@@ -194002,7 +194002,7 @@ entries: map[hash,embed] = {
                     system: link = "Maps/Particles/SR/SRUAP_Chaos_Inhibitor_runeTimer_bot"
                 }
             }
-            0x38a89e13 = 0x07ad3dda {
+            0x38a89e13 = 0x1f1f50f2 {
                 transform: mtx44 = {
                     1.2, 0, 0, 0
                     0, 1.2, 0, 0
